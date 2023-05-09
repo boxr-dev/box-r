@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "prettier", "plugin:import/recommended"],
+  "plugins": ["unused-imports"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "warnOnUnassignedImports": true,
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  }
+}

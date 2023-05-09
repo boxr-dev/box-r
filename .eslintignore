@@ -1,0 +1,5 @@
+out/**
+public/**
+environment.d.ts
+next-env.d.ts
+next.config.js
