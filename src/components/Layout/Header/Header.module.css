@@ -1,0 +1,35 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+}
+
+.inner {
+  display: flex;
+  width: 100%;
+  max-width: 1232px;
+  height: 84px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+}
+
+.navi {
+  height: 100%;
+  margin-left: auto;
+  font-family: 'Libre Baskerville', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+
+.navi ul {
+  display: flex;
+  height: 100%;
+}
