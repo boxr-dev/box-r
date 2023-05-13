@@ -2,7 +2,7 @@
   height: 100%;
 }
 
-.container a {
+.link {
   display: flex;
   align-items: center;
   height: 100%;
@@ -10,7 +10,7 @@
   font-size: 0.9rem;
 }
 
-.container a:hover span::after {
+.link:hover span::after {
   transform: scale(1, 1);
 }
 

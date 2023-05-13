@@ -12,7 +12,7 @@ export const NavItem: React.FC<Prop> = ({ children, href, isExternalLink }) => {
   return (
     <li className={style.container}>
       {isExternalLink ? (
-        <a href={href} target='_blank' rel='noopener noreferrer'>
+        <a className={style.link} href={href} target='_blank' rel='noopener noreferrer'>
           <span className={style.text}>
             <span>{children}</span>
             <span className={style['external-link-icon']}>
@@ -21,7 +21,7 @@ export const NavItem: React.FC<Prop> = ({ children, href, isExternalLink }) => {
           </span>
         </a>
       ) : (
-        <Link href={href}>
+        <Link className={style.link} href={href}>
           <span className={style.text}>{children}</span>
         </Link>
       )}
