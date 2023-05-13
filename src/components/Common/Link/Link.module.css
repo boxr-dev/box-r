@@ -1,0 +1,17 @@
+.container {
+  font-size: inherit;
+}
+
+.container:hover {
+  text-decoration: underline;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+}
+
+.external-link-icon {
+  margin-left: 4px;
+  font-size: 0.8em;
+}
