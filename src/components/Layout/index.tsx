@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { PropsWithChildren } from 'react'
 import { Header } from '@/components/Layout/Header'
+import style from '@/components/Layout/Layout.module.css'
 
 type Props = PropsWithChildren<{
   title: string
@@ -24,7 +25,7 @@ export const Layout: React.FC<Props> = ({ title, description, siteName, children
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <Header />
-      {children}
+      <div className={style.container}>{children}</div>
     </>
   )
 }
