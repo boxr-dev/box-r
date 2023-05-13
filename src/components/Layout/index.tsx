@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { PropsWithChildren } from 'react'
+import { Footer } from '@/components/Layout/Footer'
 import { Header } from '@/components/Layout/Header'
 import style from '@/components/Layout/Layout.module.css'
 
@@ -26,6 +27,7 @@ export const Layout: React.FC<Props> = ({ title, description, siteName, children
       </Head>
       <Header />
       <div className={style.container}>{children}</div>
+      <Footer />
     </>
   )
 }

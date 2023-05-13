@@ -1,0 +1,78 @@
+.container {
+  z-index: 1;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.inner {
+  display: flex;
+  max-width: 980px;
+  padding: 56px 0 72px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.map {
+  display: flex;
+  margin-left: 64px;
+}
+
+.map-list {
+  width: 220px;
+}
+
+.map-list-item {
+  margin: 16px 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.map-child-list {
+  margin-left: 16px;
+}
+
+.map-child-list-item {
+  margin: 8px 0;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.other {
+  margin-left: auto;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  height: 50%;
+}
+
+.sns-list {
+  display: flex;
+  align-items: center;
+}
+
+.caret {
+  display: flex;
+  margin: 0 8px 0 16px;
+}
+
+.instagram-icon {
+  font-size: 1.4em;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+  height: 50%;
+}
+
+.copy-right {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
