@@ -7,8 +7,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <link rel='icon' href='images/favicon/favicon.ico' />
-        <link rel='apple-touch-icon' sizes='180x180' href='images/favicon/apple-touch-icon-180x180.png' />
+        <link rel='icon' href='/images/favicon/favicon.ico' />
+        <link rel='apple-touch-icon' sizes='180x180' href='/images/favicon/apple-touch-icon-180x180.png' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <Component {...pageProps} />

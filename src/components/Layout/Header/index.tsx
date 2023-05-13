@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
       <div className={style.inner}>
         <div className={style.logo}>
           <Link href={'/'}>
-            <Image src={'images/logo/title.svg'} alt='BOX R' width={150} height={64} />
+            <Image src={'/images/logo/title.svg'} alt='BOX R' width={150} height={64} />
           </Link>
         </div>
         <nav className={style.navi}>
