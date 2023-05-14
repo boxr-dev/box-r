@@ -11,6 +11,9 @@ $t-primary: #616161;
 $t-secondary: #3a3a3a;
 $t-disabled: #3a3a3a;
 
+// ヘッダー関連
+$header-height: 84px;
+
 // メディアクエリ
 $breakpoints: (
   'sm': 'screen and (max-width: 739px)',
