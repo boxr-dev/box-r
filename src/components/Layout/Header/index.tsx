@@ -14,7 +14,6 @@ export const Header: React.FC = () => {
         </div>
         <nav className={style.navi}>
           <ul>
-            <NavItem href={'/'}>TOP</NavItem>
             <NavItem href={'/about'}>ABOUT</NavItem>
             <NavItem href={'/lesson'}>LESSON</NavItem>
             <NavItem
