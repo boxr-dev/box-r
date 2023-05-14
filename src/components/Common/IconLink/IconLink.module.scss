@@ -6,8 +6,8 @@
   padding: 8px;
   font-size: inherit;
   border-radius: 1.4em;
-}
 
-.container:hover {
-  background-color: $b-hover;
+  &:hover {
+    background-color: $b-hover;
+  }
 }

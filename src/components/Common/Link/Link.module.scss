@@ -1,9 +1,9 @@
 .container {
   font-size: inherit;
-}
 
-.container:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .inner {
