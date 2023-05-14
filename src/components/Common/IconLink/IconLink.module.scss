@@ -7,6 +7,7 @@
   font-size: inherit;
   border-radius: 1.4em;
 
+  &:focus,
   &:hover {
     background-color: $b-hover;
   }

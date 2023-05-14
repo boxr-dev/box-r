@@ -1,6 +1,7 @@
 .container {
   font-size: inherit;
 
+  &:focus,
   &:hover {
     text-decoration: underline;
   }
