@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { FaInstagram, FaCaretRight } from 'react-icons/fa'
 import { IconLink } from '@/components/Common/IconLink'
 import { Link } from '@/components/Common/Link'
-import style from '@/components/Layout/Footer/Footer.module.css'
+import style from '@/components/Layout/Footer/Footer.module.scss'
 
 export const Footer: React.FC = () => {
   return (

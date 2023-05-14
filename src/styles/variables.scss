@@ -1,0 +1,25 @@
+// メインカラー
+$c-primary: #3ea8ff;
+
+// バックグラウンド
+$b-default: #fff;
+$b-accent: #f7f7f7;
+$b-hover: #e5e5e5;
+
+// テキスト関連
+$t-primary: #616161;
+$t-secondary: #3a3a3a;
+$t-disabled: #3a3a3a;
+
+// メディアクエリ
+$breakpoints: (
+  'sm': 'screen and (max-width: 739px)',
+  'md': 'screen and (max-width: 1199px)',
+  'lg': 'screen and (min-width: 1200px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}

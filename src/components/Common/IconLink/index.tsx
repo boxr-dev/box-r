@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { PropsWithChildren } from 'react'
-import style from '@/components/Common/IconLink/IconLink.module.css'
+import style from '@/components/Common/IconLink/IconLink.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string

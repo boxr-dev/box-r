@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import style from '@/components/Layout/Header/Header.module.css'
+import style from '@/components/Layout/Header/Header.module.scss'
 import { NavItem } from '@/components/Layout/Header/NavItem'
 
 export const Header: React.FC = () => {

@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import 'the-new-css-reset/css/reset.css'
-import '@/styles/global.css'
+import '@/styles/global.scss'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (

@@ -1,7 +1,7 @@
 import NextLink from 'next/link'
 import { PropsWithChildren } from 'react'
 import { FaExternalLinkAlt } from 'react-icons/fa'
-import style from '@/components/Common/Link/Link.module.css'
+import style from '@/components/Common/Link/Link.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string

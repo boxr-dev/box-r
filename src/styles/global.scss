@@ -1,8 +1,10 @@
+@use '@/styles/variables' as *;
+
 body {
   font-family: 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
   font-size: 1rem;
-  color: #616161;
-  background-color: #fff;
+  color: $t-primary;
+  background-color: $b-default;
 }
 
 a {

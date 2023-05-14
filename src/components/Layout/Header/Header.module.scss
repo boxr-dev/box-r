@@ -1,16 +1,17 @@
+@use '@/styles/variables' as *;
+
 .container {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
   width: 100%;
-  background-color: #fff;
+  background-color: $b-default;
 }
 
 .inner {
   display: flex;
   width: 100%;
-  max-width: 1232px;
+  max-width: 1200px;
   height: 84px;
   padding: 0 16px;
   margin: auto;
@@ -27,9 +28,9 @@
   height: 100%;
   margin-left: auto;
   font-family: 'Libre Baskerville', 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
-}
 
-.navi ul {
-  display: flex;
-  height: 100%;
+  ul {
+    display: flex;
+    height: 100%;
+  }
 }

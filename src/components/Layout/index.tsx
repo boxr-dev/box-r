@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { PropsWithChildren } from 'react'
 import { Footer } from '@/components/Layout/Footer'
 import { Header } from '@/components/Layout/Header'
-import style from '@/components/Layout/Layout.module.css'
+import style from '@/components/Layout/Layout.module.scss'
 
 type Props = PropsWithChildren<{
   title: string
