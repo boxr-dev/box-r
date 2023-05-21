@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
         <div className={style.other}>
           <div className={style['flex-start']}>
             <div className={style['sns-list']}>
-              <span>Follow on</span>
+              <span className={style['sns-list-text']}>Follow on</span>
               <span className={style.caret}>
                 <FaCaretRight />
               </span>

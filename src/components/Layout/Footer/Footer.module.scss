@@ -10,27 +10,77 @@
   max-width: 980px;
   padding: 56px 0 72px;
   margin: 0 auto;
+
+  @include mq(sm) {
+    display: block;
+    min-width: 360px;
+    padding: 32px 0;
+  }
 }
 
 .logo {
   display: flex;
   align-items: center;
   min-width: 200px;
+
+  @include mq(sm) {
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  img {
+    @include mq(sm) {
+      width: 150px;
+      height: 150px;
+    }
+  }
 }
 
 .map {
   display: flex;
   margin-left: 64px;
+
+  @include mq(sm) {
+    display: block;
+    margin-bottom: 32px;
+    margin-left: 0;
+  }
 }
 
 .map-list {
   width: 220px;
+
+  @include mq(sm) {
+    width: 100%;
+    padding: 0 32px;
+  }
 }
 
 .map-list-item {
   margin: 16px 0;
   font-size: 1em;
   font-weight: bold;
+
+  @include mq(sm) {
+    height: 60px;
+    margin: 0;
+    border-bottom: 1px #eee solid;
+  }
+
+  &:first-child {
+    @include mq(sm) {
+      border-top: 1px #eee solid;
+    }
+  }
+
+  a {
+    @include mq(sm) {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
 
 .map-child-list {
@@ -41,6 +91,10 @@
   margin: 8px 0;
   font-size: 0.8em;
   font-weight: normal;
+
+  @include mq(sm) {
+    display: none;
+  }
 }
 
 .other {
@@ -51,6 +105,13 @@
   display: flex;
   align-items: flex-start;
   height: 50%;
+
+  @include mq(sm) {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 32px;
+  }
 }
 
 .sns-list {
@@ -58,9 +119,13 @@
   align-items: center;
 }
 
+.sns-list-text {
+  padding: 0 8px;
+}
+
 .caret {
   display: flex;
-  margin: 0 8px 0 16px;
+  margin: 0 8px;
 }
 
 .instagram-icon {
@@ -71,6 +136,12 @@
   display: flex;
   align-items: flex-end;
   height: 50%;
+
+  @include mq(sm) {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
 }
 
 .copy-right {
@@ -78,4 +149,9 @@
   margin-bottom: 8px;
   margin-left: auto;
   color: $t-secondary;
+
+  @include mq(sm) {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
 }
