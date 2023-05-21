@@ -26,7 +26,7 @@ export const Layout: React.FC<Props> = ({ title, description, siteName, children
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <Header />
-      <div className={style.container}>{children}</div>
+      <main className={style.container}>{children}</main>
       <Footer />
     </>
   )

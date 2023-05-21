@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
         <div className={style.logo}>
           <Image src={'/images/logo/main.png'} alt='BOX R' width={200} height={200} />
         </div>
-        <div className={style.map}>
+        <nav className={style.map}>
           <ul className={style['map-list']}>
             <li className={style['map-list-item']}>
               <Link href={'/about'}>BOX Rについて</Link>
@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
               <Link href={'/privacy'}>プライバシーポリシー</Link>
             </li>
           </ul>
-        </div>
+        </nav>
         <div className={style.other}>
           <div className={style['flex-start']}>
             <div className={style['sns-list']}>
