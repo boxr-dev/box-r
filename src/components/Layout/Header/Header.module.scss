@@ -15,6 +15,12 @@
   height: $header-height;
   padding: 0 16px;
   margin: auto;
+
+  @include mq(sm) {
+    height: $m-header-height;
+    padding-right: 40px;
+    padding-left: 16px;
+  }
 }
 
 .logo {
@@ -24,11 +30,34 @@
   min-width: 150px;
   height: 100%;
 
+  @include mq(sm) {
+    justify-content: center;
+    width: auto;
+    min-width: auto;
+    margin: 0 auto;
+  }
+
   a {
     &:focus {
       border-radius: 4px;
       outline: $c-primary solid 1px;
     }
+
+    img {
+      @include mq(sm) {
+        width: 100px;
+      }
+    }
+  }
+}
+
+.menu {
+  display: none;
+
+  @include mq(sm) {
+    display: flex;
+    align-items: center;
+    height: 100%;
   }
 }
 
@@ -36,6 +65,10 @@
   height: 100%;
   margin-left: auto;
   font-family: 'Libre Baskerville', 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
+
+  @include mq(sm) {
+    display: none;
+  }
 
   ul {
     display: flex;

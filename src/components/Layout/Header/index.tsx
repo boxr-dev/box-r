@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { MdMenu } from 'react-icons/md'
 import style from '@/components/Layout/Header/Header.module.scss'
 import { NavItem } from '@/components/Layout/Header/NavItem'
 
@@ -7,11 +8,14 @@ export const Header: React.FC = () => {
   return (
     <header className={style.container}>
       <div className={style.inner}>
-        <div className={style.logo}>
+        <div className={style.menu}>
+          <MdMenu size={24} />
+        </div>
+        <h1 className={style.logo}>
           <Link href={'/'}>
             <Image src={'/images/logo/title.svg'} alt='BOX R' width={150} height={64} />
           </Link>
-        </div>
+        </h1>
         <nav className={style.navi}>
           <ul>
             <NavItem href={'/about'}>ABOUT</NavItem>

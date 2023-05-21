@@ -4,4 +4,8 @@
   width: 100%;
   margin-top: $header-height;
   background-color: $b-default;
+
+  @include mq(sm) {
+    margin-top: $m-header-height;
+  }
 }
