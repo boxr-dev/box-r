@@ -14,7 +14,7 @@
   @include mq(sm) {
     display: block;
     min-width: 360px;
-    padding: 32px 0;
+    padding: 32px 0 64px;
   }
 }
 
@@ -64,6 +64,7 @@
   @include mq(sm) {
     height: 60px;
     margin: 0;
+    font-weight: normal;
     border-bottom: 1px #eee solid;
   }
 
@@ -153,5 +154,6 @@
   @include mq(sm) {
     margin-right: auto;
     margin-bottom: 0;
+    font-size: 0.7em;
   }
 }

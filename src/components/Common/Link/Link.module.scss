@@ -1,9 +1,17 @@
+@use '@/styles/variables' as *;
+
 .container {
   font-size: inherit;
+  color: $t-primary;
 
   &:focus,
   &:hover {
     text-decoration: underline;
+
+    @include mq(sm) {
+      color: $t-secondary;
+      text-decoration: none;
+    }
   }
 }
 

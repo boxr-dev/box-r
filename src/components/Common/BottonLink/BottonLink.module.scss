@@ -61,5 +61,17 @@ $transition: 0.2s ease-out;
     &::after {
       transform: scale(1, 1);
     }
+
+    @include mq(sm) {
+      color: $t-secondary;
+
+      &::before {
+        border-color: $t-secondary;
+      }
+
+      &::after {
+        transform: scale(0, 1);
+      }
+    }
   }
 }
