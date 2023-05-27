@@ -9,6 +9,11 @@
   min-height: calc(100vh - $header-height);
   margin-top: $header-height;
   background-color: $b-default;
+
+  @include mq(sm) {
+    min-height: calc(100vh - $m-header-height);
+    margin-top: $m-header-height;
+  }
 }
 
 .main {
@@ -23,6 +28,12 @@
 
 .heading-eng {
   font-size: 8rem;
+}
+
+.deiscription {
+  padding: 0 32px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .btn {
