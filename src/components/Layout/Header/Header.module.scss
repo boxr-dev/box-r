@@ -18,8 +18,7 @@
 
   @include mq(sm) {
     height: $m-header-height;
-    padding-right: 40px;
-    padding-left: 16px;
+    padding: 0;
   }
 }
 
