@@ -55,14 +55,6 @@
   }
 }
 
-.menu {
-  display: none;
-
-  @include mq(sm) {
-    display: block;
-  }
-}
-
 .navi {
   height: 100%;
   margin-left: auto;
@@ -75,5 +67,13 @@
   ul {
     display: flex;
     height: 100%;
+  }
+}
+
+.menu {
+  display: none;
+
+  @include mq(sm) {
+    display: block;
   }
 }

@@ -1,0 +1,67 @@
+@use '@/styles/variables' as *;
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  margin-bottom: 32px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.map {
+  margin-bottom: 32px;
+}
+
+.map-list {
+  width: 100%;
+}
+
+.map-list-item {
+  height: 60px;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+  border-bottom: 1px #eee solid;
+
+  &:first-child {
+    border-top: 1px #eee solid;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sns-list {
+  display: flex;
+  align-items: center;
+}
+
+.sns-list-text {
+  padding: 0 8px;
+  font-size: 1.2rem;
+}
+
+.caret {
+  display: flex;
+  margin: 0 8px;
+}
+
+.instagram-icon {
+  font-size: 1.6rem;
+}
