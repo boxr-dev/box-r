@@ -60,9 +60,7 @@
   display: none;
 
   @include mq(sm) {
-    display: flex;
-    align-items: center;
-    height: 100%;
+    display: block;
   }
 }
 
