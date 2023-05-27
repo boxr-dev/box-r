@@ -66,6 +66,7 @@
   @include mq(sm) {
     height: 60px;
     margin: 0;
+    font-size: 1.2rem;
     font-weight: normal;
     border-bottom: 1px #eee solid;
   }
@@ -124,6 +125,10 @@
 
 .sns-list-text {
   padding: 0 8px;
+
+  @include mq(sm) {
+    font-size: 1.2rem;
+  }
 }
 
 .caret {
@@ -133,6 +138,10 @@
 
 .instagram-icon {
   font-size: 1.4rem;
+
+  @include mq(sm) {
+    font-size: 1.6rem;
+  }
 }
 
 .flex-end {
