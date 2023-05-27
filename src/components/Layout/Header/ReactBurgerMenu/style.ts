@@ -33,9 +33,11 @@ export const style = {
     height: '100vh',
   },
   bmMenu: {
-    padding: '48px 24px 0',
-    fontSize: '1rem',
     background: '#f7f7f7', // $b-accent に依存
+  },
+  bmItemList: {
+    height: 'auto',
+    padding: '48px 0',
   },
   bmOverlay: {
     top: '0',
