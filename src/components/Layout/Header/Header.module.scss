@@ -47,6 +47,7 @@
       width: 150px;
       max-width: 100%;
       height: auto;
+      fill: $c-primary;
 
       @include mq(sm) {
         width: 100px;
