@@ -1,8 +1,15 @@
 @use '@/styles/variables' as *;
 
+html {
+  font-size: 16px;
+
+  @include mq(sm) {
+    font-size: 14px;
+  }
+}
+
 body {
   font-family: 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
-  font-size: 1rem;
   color: $t-primary;
   background-color: $b-default;
 }
