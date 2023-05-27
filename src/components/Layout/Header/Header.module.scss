@@ -43,7 +43,11 @@
       outline: $c-primary solid 1px;
     }
 
-    img {
+    svg {
+      width: 150px;
+      max-width: 100%;
+      height: auto;
+
       @include mq(sm) {
         width: 100px;
       }
