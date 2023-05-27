@@ -60,7 +60,7 @@
 
 .map-list-item {
   margin: 16px 0;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
 
   @include mq(sm) {
@@ -92,7 +92,7 @@
 
 .map-child-list-item {
   margin: 8px 0;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   font-weight: normal;
 
   @include mq(sm) {
@@ -132,7 +132,7 @@
 }
 
 .instagram-icon {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 .flex-end {
@@ -156,6 +156,6 @@
   @include mq(sm) {
     margin-right: auto;
     margin-bottom: 0;
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
 }

@@ -1,7 +1,7 @@
 @use '@/styles/variables' as *;
 
 .container {
-  font-size: inherit;
+  font-size: 1em;
   color: $t-primary;
 
   &:focus,
