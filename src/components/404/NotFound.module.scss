@@ -6,36 +6,36 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: calc(100vh - $header-height);
-  margin-top: $header-height;
+  height: 100vh;
+  padding: $header-height 0;
   background-color: $b-default;
 
   @include mq(sm) {
-    min-height: calc(100vh - $m-header-height);
-    margin-top: $m-header-height;
+    height: 100dvh;
+    padding: $m-header-height 0;
   }
 }
 
 .main {
+  margin-bottom: 64px;
+}
+
+.title {
   margin-bottom: 32px;
   font-family: 'Libre Baskerville', 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
   text-align: center;
 }
 
-.not-found {
-  font-size: 2rem;
+.main-title {
+  font-size: 8rem;
 }
 
-.heading-eng {
-  font-size: 8rem;
+.sub-title {
+  font-size: 2rem;
 }
 
 .deiscription {
   padding: 0 32px;
   font-size: 1rem;
   text-align: center;
-}
-
-.btn {
-  margin: 64px 0;
 }

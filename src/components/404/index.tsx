@@ -4,17 +4,17 @@ import { BottonLink } from '@/components/Common/BottonLink'
 export const NotFound: React.FC = () => {
   return (
     <main className={style.container}>
-      <h1 className={style.main}>
-        <div className={style['heading-eng']}>404</div>
-        <div className={style['not-found']}>Page not found</div>
-      </h1>
-      <div className={style.deiscription}>
-        <p>お探しのページは見つかりませんでした。</p>
-        <p>こちらのページはすでに削除されたか、もしくはURLが異なる場合があります。</p>
+      <div className={style.main}>
+        <h2 className={style.title}>
+          <div className={style['main-title']}>404</div>
+          <div className={style['sub-title']}>Page not found</div>
+        </h2>
+        <div className={style.deiscription}>
+          <p>お探しのページは見つかりませんでした。</p>
+          <p>こちらのページはすでに削除されたか、もしくはURLが異なる場合があります。</p>
+        </div>
       </div>
-      <div className={style.btn}>
-        <BottonLink href={'/'}>TOPへ戻る</BottonLink>
-      </div>
+      <BottonLink href={'/'}>TOPへ戻る</BottonLink>
     </main>
   )
 }
