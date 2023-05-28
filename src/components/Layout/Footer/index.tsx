@@ -7,32 +7,32 @@ import style from '@/components/Layout/Footer/Footer.module.scss'
 export const Footer: React.FC = () => {
   return (
     <footer className={style.container}>
-      <div className={style.inner}>
+      <div className={style['container-inner']}>
         <div className={style.logo}>
           <Image src={'/images/logo/main.png'} alt='BOX R' width={200} height={200} />
         </div>
-        <nav className={style.map}>
-          <ul className={style['map-list']}>
-            <li className={style['map-list-item']}>
+        <nav className={style.nav}>
+          <ul className={style['nav-list']}>
+            <li className={style['nav-list-item']}>
               <Link href={'/about'}>BOX Rについて</Link>
             </li>
-            <li className={style['map-list-item']}>
+            <li className={style['nav-list-item']}>
               <Link href={'/lesson'}>レッスン</Link>
-              <ul className={style['map-child-list']}>
-                <li className={style['map-child-list-item']}>
+              <ul className={style['nav-child-list']}>
+                <li className={style['nav-child-list-item']}>
                   <Link href={'/lesson/chabako'}>インテリア茶箱</Link>
                 </li>
-                <li className={style['map-child-list-item']}>
+                <li className={style['nav-child-list-item']}>
                   <Link href={'/lesson/cartonnage'}>カルトナージュ</Link>
                 </li>
-                <li className={style['map-child-list-item']}>
+                <li className={style['nav-child-list-item']}>
                   <Link href={'/lesson/french-deco'}>フレンチ メゾン デコール</Link>
                 </li>
               </ul>
             </li>
           </ul>
-          <ul className={style['map-list']}>
-            <li className={style['map-list-item']}>
+          <ul className={style['nav-list']}>
+            <li className={style['nav-list-item']}>
               <Link
                 href={
                   'https://calendar.google.com/calendar/u/0/embed?src=a7dctp6ugi964437og5b02hdds@group.calendar.google.com&ctz=Asia/Tokyo'
@@ -42,26 +42,26 @@ export const Footer: React.FC = () => {
                 スケジュール
               </Link>
             </li>
-            <li className={style['map-list-item']}>
+            <li className={style['nav-list-item']}>
               <Link href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
                 ブログ
               </Link>
             </li>
-            <li className={style['map-list-item']}>
+            <li className={style['nav-list-item']}>
               <Link href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
                 お問い合わせ
               </Link>
             </li>
-            <li className={style['map-list-item']}>
+            <li className={style['nav-list-item']}>
               <Link href={'/privacy'}>プライバシーポリシー</Link>
             </li>
           </ul>
         </nav>
         <div className={style.other}>
-          <div className={style['flex-start']}>
+          <div className={style.sns}>
             <div className={style['sns-list']}>
               <span className={style['sns-list-text']}>Follow on</span>
-              <span className={style.caret}>
+              <span className={style['caret-icon']}>
                 <FaCaretRight />
               </span>
               <div className={style['instagram-icon']}>
@@ -71,8 +71,8 @@ export const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className={style['flex-end']}>
-            <div className={style['copy-right']}>
+          <div className={style['copy-right']}>
+            <div className={style['copy-right-text']}>
               <span>© 2023 BOX R</span>
             </div>
           </div>
