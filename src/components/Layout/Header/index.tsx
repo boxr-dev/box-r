@@ -9,14 +9,14 @@ export const Header: React.FC = () => {
   return (
     <>
       <header className={style.container}>
-        <div className={style.inner}>
+        <div className={style['container-inner']}>
           <h1 className={style.logo}>
             <NextLink href={'/'}>
               <TitleImage role='img' aria-label='BOX R' />
             </NextLink>
           </h1>
-          <nav className={style.navi}>
-            <ul>
+          <nav className={style.nav}>
+            <ul className={style['nav-list']}>
               <NavItem href={'/about'}>ABOUT</NavItem>
               <NavItem href={'/lesson'}>LESSON</NavItem>
               <NavItem
@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
           </nav>
         </div>
       </header>
-      <div className={style.menu}>
+      <div className={style.drawer}>
         <ReactBurgerMenu>
           <Menu />
         </ReactBurgerMenu>

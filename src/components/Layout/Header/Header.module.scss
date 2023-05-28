@@ -4,11 +4,12 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: $z-index-header;
   width: 100%;
   background-color: $b-default;
 }
 
-.inner {
+.container-inner {
   display: flex;
   width: 100%;
   max-width: 1200px;
@@ -55,7 +56,7 @@
   }
 }
 
-.navi {
+.nav {
   height: 100%;
   margin-left: auto;
   font-family: 'Libre Baskerville', 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
@@ -63,14 +64,14 @@
   @include mq(sm) {
     display: none;
   }
-
-  ul {
-    display: flex;
-    height: 100%;
-  }
 }
 
-.menu {
+.nav-list {
+  display: flex;
+  height: 100%;
+}
+
+.drawer {
   display: none;
 
   @include mq(sm) {

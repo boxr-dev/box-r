@@ -16,6 +16,10 @@ $t-contrast-primary: #fff;
 $header-height: 94px;
 $m-header-height: 54px;
 
+// z-index関連
+$z-index-header: 100;
+$z-index-drawer: 1000; // react-burger-menu に依存
+
 // メディアクエリ
 $breakpoints: (
   'sm': 'screen and (max-width: 859px)',
