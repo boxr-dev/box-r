@@ -9,7 +9,7 @@
   height: calc(100vh - $header-height);
 
   @include mq(sm) {
-    height: calc(100dvh - $m-header-height);
+    height: calc(100svh - $m-header-height);
   }
 
   img {
