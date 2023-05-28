@@ -1,14 +1,14 @@
-import NextLink from 'next/link'
+import Link from 'next/link'
 import { PropsWithChildren } from 'react'
 import { FaExternalLinkAlt } from 'react-icons/fa'
-import style from '@/components/Common/Link/Link.module.scss'
+import style from '@/components/Common/TextLink/TextLink.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string
   isExternalLink?: boolean
 }
 
-export const Link: React.FC<Prop> = ({ children, href, isExternalLink }) => {
+export const TextLink: React.FC<Prop> = ({ children, href, isExternalLink }) => {
   return (
     <>
       {isExternalLink ? (
@@ -21,9 +21,9 @@ export const Link: React.FC<Prop> = ({ children, href, isExternalLink }) => {
           </span>
         </a>
       ) : (
-        <NextLink className={style.container} href={href}>
+        <Link className={style.container} href={href}>
           <span>{children}</span>
-        </NextLink>
+        </Link>
       )}
     </>
   )

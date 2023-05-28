@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+import Link from 'next/link'
 import style from '@/components/Layout/Header/Header.module.scss'
 import { Menu } from '@/components/Layout/Header/Menu'
 import { NavItem } from '@/components/Layout/Header/NavItem'
@@ -11,9 +11,9 @@ export const Header: React.FC = () => {
       <header className={style.container}>
         <div className={style['container-inner']}>
           <h1 className={style.logo}>
-            <NextLink href={'/'}>
+            <Link href={'/'}>
               <TitleImage role='img' aria-label='BOX R' />
-            </NextLink>
+            </Link>
           </h1>
           <nav className={style.nav}>
             <ul className={style['nav-list']}>

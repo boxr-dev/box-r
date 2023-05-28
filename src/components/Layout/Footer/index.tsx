@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FaInstagram, FaCaretRight } from 'react-icons/fa'
 import { IconLink } from '@/components/Common/IconLink'
-import { Link } from '@/components/Common/Link'
+import { TextLink } from '@/components/Common/TextLink'
 import style from '@/components/Layout/Footer/Footer.module.scss'
 
 export const Footer: React.FC = () => {
@@ -14,46 +14,46 @@ export const Footer: React.FC = () => {
         <nav className={style.nav}>
           <ul className={style['nav-list']}>
             <li className={style['nav-list-item']}>
-              <Link href={'/about'}>BOX Rについて</Link>
+              <TextLink href={'/about'}>BOX Rについて</TextLink>
             </li>
             <li className={style['nav-list-item']}>
-              <Link href={'/lesson'}>レッスン</Link>
+              <TextLink href={'/lesson'}>レッスン</TextLink>
               <ul className={style['nav-child-list']}>
                 <li className={style['nav-child-list-item']}>
-                  <Link href={'/lesson/chabako'}>インテリア茶箱</Link>
+                  <TextLink href={'/lesson/chabako'}>インテリア茶箱</TextLink>
                 </li>
                 <li className={style['nav-child-list-item']}>
-                  <Link href={'/lesson/cartonnage'}>カルトナージュ</Link>
+                  <TextLink href={'/lesson/cartonnage'}>カルトナージュ</TextLink>
                 </li>
                 <li className={style['nav-child-list-item']}>
-                  <Link href={'/lesson/french-deco'}>フレンチ メゾン デコール</Link>
+                  <TextLink href={'/lesson/french-deco'}>フレンチ メゾン デコール</TextLink>
                 </li>
               </ul>
             </li>
           </ul>
           <ul className={style['nav-list']}>
             <li className={style['nav-list-item']}>
-              <Link
+              <TextLink
                 href={
                   'https://calendar.google.com/calendar/u/0/embed?src=a7dctp6ugi964437og5b02hdds@group.calendar.google.com&ctz=Asia/Tokyo'
                 }
                 isExternalLink
               >
                 スケジュール
-              </Link>
+              </TextLink>
             </li>
             <li className={style['nav-list-item']}>
-              <Link href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
+              <TextLink href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
                 ブログ
-              </Link>
+              </TextLink>
             </li>
             <li className={style['nav-list-item']}>
-              <Link href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+              <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
                 お問い合わせ
-              </Link>
+              </TextLink>
             </li>
             <li className={style['nav-list-item']}>
-              <Link href={'/privacy'}>プライバシーポリシー</Link>
+              <TextLink href={'/privacy'}>プライバシーポリシー</TextLink>
             </li>
           </ul>
         </nav>

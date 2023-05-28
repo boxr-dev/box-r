@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FaInstagram, FaCaretRight } from 'react-icons/fa'
 import { IconLink } from '@/components/Common/IconLink'
-import { Link } from '@/components/Common/Link'
+import { TextLink } from '@/components/Common/TextLink'
 import style from '@/components/Layout/Header/Menu/Menu.module.scss'
 
 export const Menu: React.FC = () => {
@@ -13,30 +13,30 @@ export const Menu: React.FC = () => {
       <nav className={style.map}>
         <ul className={style['map-list']}>
           <li className={style['map-list-item']}>
-            <Link href={'/about'}>BOX Rについて</Link>
+            <TextLink href={'/about'}>BOX Rについて</TextLink>
           </li>
           <li className={style['map-list-item']}>
-            <Link href={'/lesson'}>レッスン</Link>
+            <TextLink href={'/lesson'}>レッスン</TextLink>
           </li>
           <li className={style['map-list-item']}>
-            <Link
+            <TextLink
               href={
                 'https://calendar.google.com/calendar/u/0/embed?src=a7dctp6ugi964437og5b02hdds@group.calendar.google.com&ctz=Asia/Tokyo'
               }
               isExternalLink
             >
               スケジュール
-            </Link>
+            </TextLink>
           </li>
           <li className={style['map-list-item']}>
-            <Link href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
+            <TextLink href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
               ブログ
-            </Link>
+            </TextLink>
           </li>
           <li className={style['map-list-item']}>
-            <Link href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+            <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
               お問い合わせ
-            </Link>
+            </TextLink>
           </li>
         </ul>
       </nav>
