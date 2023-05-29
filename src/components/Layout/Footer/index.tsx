@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
               </span>
               <div className={style['instagram-icon']}>
                 <IconLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
-                  <FaInstagram />
+                  <FaInstagram role='img' aria-label='Instagram' />
                 </IconLink>
               </div>
             </div>
