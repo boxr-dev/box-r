@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+import Link from 'next/link'
 import { PropsWithChildren } from 'react'
 import style from '@/components/Common/IconLink/IconLink.module.scss'
 
@@ -15,9 +15,9 @@ export const IconLink: React.FC<Prop> = ({ children, href, isExternalLink }) => 
           {children}
         </a>
       ) : (
-        <NextLink className={style.container} href={href}>
+        <Link className={style.container} href={href}>
           {children}
-        </NextLink>
+        </Link>
       )}
     </>
   )
