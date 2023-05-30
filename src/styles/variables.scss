@@ -17,8 +17,9 @@ $header-height: 94px;
 $m-header-height: 54px;
 
 // z-index関連
-$z-index-header: 100;
-$z-index-drawer: 1000; // react-burger-menu に依存
+$z-index-header: 1000;
+$z-index-drawer: 1100;
+$z-index-drawer-wrap: 1150;
 
 // メディアクエリ
 $breakpoints: (
