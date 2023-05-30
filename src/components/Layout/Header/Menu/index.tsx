@@ -10,15 +10,15 @@ export const Menu: React.FC = () => {
       <div className={style.logo}>
         <Image src={'/images/logo/main.png'} alt='BOX R' width={150} height={150} />
       </div>
-      <nav className={style.map}>
-        <ul className={style['map-list']}>
-          <li className={style['map-list-item']}>
+      <nav className={style.nav}>
+        <ul className={style['nav-list']}>
+          <li className={style['nav-list-item']}>
             <TextLink href={'/about'}>BOX Rについて</TextLink>
           </li>
-          <li className={style['map-list-item']}>
+          <li className={style['nav-list-item']}>
             <TextLink href={'/lesson'}>レッスン</TextLink>
           </li>
-          <li className={style['map-list-item']}>
+          <li className={style['nav-list-item']}>
             <TextLink
               href={
                 'https://calendar.google.com/calendar/u/0/embed?src=a7dctp6ugi964437og5b02hdds@group.calendar.google.com&ctz=Asia/Tokyo'
@@ -28,12 +28,12 @@ export const Menu: React.FC = () => {
               スケジュール
             </TextLink>
           </li>
-          <li className={style['map-list-item']}>
+          <li className={style['nav-list-item']}>
             <TextLink href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
               ブログ
             </TextLink>
           </li>
-          <li className={style['map-list-item']}>
+          <li className={style['nav-list-item']}>
             <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
               お問い合わせ
             </TextLink>
