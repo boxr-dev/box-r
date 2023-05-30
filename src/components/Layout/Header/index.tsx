@@ -1,8 +1,8 @@
 import Link from 'next/link'
+import { Drawer } from '@/components/Layout/Header/Drawer'
 import style from '@/components/Layout/Header/Header.module.scss'
 import { Menu } from '@/components/Layout/Header/Menu'
 import { NavItem } from '@/components/Layout/Header/NavItem'
-import { ReactBurgerMenu } from '@/components/Layout/Header/ReactBurgerMenu'
 import TitleImage from 'public/images/logo/title.svg'
 
 export const Header: React.FC = () => {
@@ -38,9 +38,9 @@ export const Header: React.FC = () => {
         </div>
       </header>
       <div className={style.drawer}>
-        <ReactBurgerMenu>
+        <Drawer>
           <Menu />
-        </ReactBurgerMenu>
+        </Drawer>
       </div>
     </>
   )
