@@ -3,8 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 type ToggleMenu = {
   isOpen: boolean
   isHiddenElement: boolean
-  open: () => void
-  close: () => void
+  handleMenuBtnClick: () => void
   handleOverlayClick: () => void
 }
 
@@ -38,27 +37,23 @@ export const useToggleMenu = (): ToggleMenu => {
     }
   }
 
-  const toggleMenu = () => {
+  const toggleMenu = (open?: boolean) => {
     // アニメーションを適用させるために要素を表示させておく
     setIsHiddenElement(false)
 
     // メニューがトグルされる前にアニメーションのCSSを適用させる
     setTimeout(() => {
-      setIsOpen((prevState) => !prevState)
+      setIsOpen((prevState) => (typeof open !== 'undefined' ? open : !prevState))
     })
   }
 
-  const open = () => {
-    toggleMenu()
-  }
-
-  const close = () => {
+  const handleMenuBtnClick = () => {
     toggleMenu()
   }
 
   const handleOverlayClick = () => {
-    close()
+    toggleMenu(false)
   }
 
-  return { isOpen, isHiddenElement, open, close, handleOverlayClick }
+  return { isOpen, isHiddenElement, handleMenuBtnClick, handleOverlayClick }
 }
