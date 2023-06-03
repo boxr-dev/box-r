@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import { PropsWithChildren } from 'react'
-import style from '@/components/Common/BottonLink/BottonLink.module.scss'
+import { Link } from '@/components/Common/Link'
+import style from '@/components/Common/Link/BottonLink/BottonLink.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string
@@ -9,7 +9,7 @@ type Prop = PropsWithChildren & {
 export const BottonLink: React.FC<Prop> = ({ children, href }) => {
   return (
     <button className={style.container} type='button' tabIndex={-1}>
-      <Link className={style.link} href={href}>
+      <Link className={style.link} href={href} isExternalLink={false}>
         {children}
       </Link>
     </button>

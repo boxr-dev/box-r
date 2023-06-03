@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FaInstagram, FaCaretRight } from 'react-icons/fa'
-import { IconLink } from '@/components/Common/IconLink'
-import { TextLink } from '@/components/Common/TextLink'
+import { IconLink } from '@/components/Common/Link/IconLink'
+import { TextLink } from '@/components/Common/Link/TextLink'
 import style from '@/components/Layout/Header/Menu/Menu.module.scss'
 
 export const Menu: React.FC = () => {
