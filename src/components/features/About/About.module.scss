@@ -15,36 +15,3 @@
     }
   }
 }
-
-.content {
-  display: block;
-  width: 100%;
-  padding: 0 32px;
-
-  ul {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  p {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.5;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-
-.image {
-  display: block;
-  width: 100%;
-  padding: 16px 0;
-
-  img {
-    position: relative !important; // TODO: importantを使うのは不本意なので、いい方法があれば修正したい
-    object-fit: contain;
-  }
-}
