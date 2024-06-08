@@ -1,13 +1,11 @@
 import { Image } from '@/components/commons/Image'
+import { PageTitle } from '@/components/commons/PageTitle'
 import style from '@/components/features/About/About.module.scss'
 
 export const About: React.FC = () => {
   return (
     <div className={style.container}>
-      <section className={style.title}>
-        <h2 className={style['title-main']}>About</h2>
-        <span className={style['title-sub']}>BOX R について</span>
-      </section>
+      <PageTitle title='About' subTitle='BOX R について' />
       <section className={style.content}>
         <p>BOX R は、カルトナージュとインテリア茶箱のアトリエです。</p>
         <p>インテリアに馴染みつつも存在感のある作品作りを心がけております。</p>
