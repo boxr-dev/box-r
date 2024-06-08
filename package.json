@@ -5,7 +5,7 @@
   },
   "author": "Genki Sano (https://github.com/genki-sano)",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint-staged": "lint-staged",
     "dev": "next dev",
     "build": "next build",
