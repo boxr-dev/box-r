@@ -4,7 +4,6 @@
     "url": "https://github.com/boxr-dev/box-r.git"
   },
   "author": "Genki Sano (https://github.com/genki-sano)",
-  "license": "MIT",
   "scripts": {
     "prepare": "husky install",
     "lint-staged": "lint-staged",
