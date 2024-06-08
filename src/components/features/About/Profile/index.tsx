@@ -1,13 +1,11 @@
 import { Image } from '@/components/commons/Image'
+import { SectionTitle } from '@/components/commons/SectionTitle'
 import style from '@/components/features/About/Profile/Profile.module.scss'
 
 export const Profile: React.FC = () => {
   return (
     <section className={style.container}>
-      <div>
-        <span className={style.name}>佐野 里江子</span>
-        <span className={style['name-sub']}>Rieko Sano</span>
-      </div>
+      <SectionTitle title='佐野 里江子' subTitle='Rieko Sano' />
       <div className={style.content}>
         <p>横浜市在住。短大卒業後、大手広告代理店に勤務。出産を機に退職。3人の子育てを通して様々なクラフトに出会う。</p>
         <p>

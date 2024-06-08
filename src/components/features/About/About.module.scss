@@ -3,7 +3,7 @@
 .container {
   display: block;
   width: 100%;
-  max-width: 600px;
+  max-width: $page-max-width;
   padding: 32px 0 64px;
   margin: auto;
 
