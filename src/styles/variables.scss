@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 // メインカラー
 $c-primary: #616161;
 
@@ -30,7 +32,7 @@ $breakpoints: (
 ) !default;
 
 @mixin mq($breakpoint: md) {
-  @media #{map-get($breakpoints, $breakpoint)} {
+  @media #{map.get($breakpoints, $breakpoint)} {
     @content;
   }
 }
