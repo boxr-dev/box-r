@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
     <footer className={style.container}>
       <div className={style['container-inner']}>
         <div className={style.logo}>
-          <Image src={'/images/logo/main.png'} alt='BOX R' width={200} height={200} />
+          <Image src={'/images/logo/main.png'} alt='BOX R' loading='lazy' width={200} height={200} />
         </div>
         <nav className={style.nav}>
           <ul className={style['nav-list']}>
