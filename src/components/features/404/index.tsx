@@ -1,5 +1,5 @@
-import style from '@/components/404/NotFound.module.scss'
-import { BottonLink } from '@/components/Common/Link/BottonLink'
+import { BottonLink } from '@/components/commons/Link/BottonLink'
+import style from '@/components/features/404/NotFound.module.scss'
 
 export const NotFound: React.FC = () => {
   return (

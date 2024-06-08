@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react'
-import { Link } from '@/components/Common/Link'
-import style from '@/components/Common/Link/BottonLink/BottonLink.module.scss'
+import { Link } from '@/components/commons/Link'
+import style from '@/components/commons/Link/BottonLink/BottonLink.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string

@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react'
 import { FaExternalLinkAlt } from 'react-icons/fa'
-import { Link } from '@/components/Common/Link'
-import style from '@/components/Common/Link/TextLink/TextLink.module.scss'
+import { Link } from '@/components/commons/Link'
+import style from '@/components/commons/Link/TextLink/TextLink.module.scss'
 
 type Prop = PropsWithChildren & {
   href: string

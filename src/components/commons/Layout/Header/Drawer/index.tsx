@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react'
-import style from '@/components/Layout/Header/Drawer/Drawer.module.scss'
-import { useToggleMenu } from '@/components/Layout/Header/Drawer/useToggleMenu'
+import style from '@/components/commons/Layout/Header/Drawer/Drawer.module.scss'
+import { useToggleMenu } from '@/components/commons/Layout/Header/Drawer/useToggleMenu'
 
 export const Drawer: React.FC<PropsWithChildren> = ({ children }) => {
   const { isOpen, isHiddenElement, handleMenuBtnClick, handleOverlayClick } = useToggleMenu()

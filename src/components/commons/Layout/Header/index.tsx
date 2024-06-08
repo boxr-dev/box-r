@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { Drawer } from '@/components/Layout/Header/Drawer'
-import style from '@/components/Layout/Header/Header.module.scss'
-import { Menu } from '@/components/Layout/Header/Menu'
-import { NavItem } from '@/components/Layout/Header/NavItem'
+import { Drawer } from '@/components/commons/Layout/Header/Drawer'
+import style from '@/components/commons/Layout/Header/Header.module.scss'
+import { Menu } from '@/components/commons/Layout/Header/Menu'
+import { NavItem } from '@/components/commons/Layout/Header/NavItem'
 import TitleImage from 'public/images/logo/title.svg'
 
 export const Header: React.FC = () => {

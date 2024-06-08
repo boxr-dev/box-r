@@ -1,5 +1,5 @@
-import { Image } from '@/components/Common/Image'
-import style from '@/components/Index/Index.module.scss'
+import { Image } from '@/components/commons/Image'
+import style from '@/components/features/Index/Index.module.scss'
 
 export const Index: React.FC = () => {
   return (

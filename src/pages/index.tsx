@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
-import { Index } from '@/components/Index'
-import { Layout } from '@/components/Layout'
+import { Index } from '@/components/features/Index'
+import { Layout } from '@/components/commons/Layout'
 
 const IndexPage: NextPage = () => {
   return (
