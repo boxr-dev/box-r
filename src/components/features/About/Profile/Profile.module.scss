@@ -1,0 +1,71 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: block;
+  width: 100%;
+
+  div {
+    padding: 0 32px;
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 32px;
+  color: $t-primary;
+
+  &::after {
+    width: calc(100% - 190px);
+    margin-left: 16px;
+    content: '';
+    border-top: 1px solid $t-accent;
+  }
+}
+
+.name-sub {
+  display: block;
+  font-size: 24px;
+  color: $t-accent;
+}
+
+.content {
+  p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.career {
+  margin-bottom: 16px;
+  font-size: 16px;
+
+  td {
+    &:first-child {
+      width: 100px;
+    }
+  }
+}
+
+.annotation {
+  margin-top: 32px;
+  color: $t-secondary;
+}
+
+.image {
+  img {
+    position: relative !important; // TODO: importantを使うのは不本意なので、いい方法があれば修正したい
+    object-fit: contain;
+  }
+}
