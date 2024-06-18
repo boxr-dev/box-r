@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { FaInstagram, FaCaretRight } from 'react-icons/fa'
 import style from '@/components/commons/Layout/Header/Menu/Menu.module.scss'
 import { IconLink } from '@/components/commons/Link/IconLink'
@@ -8,7 +9,9 @@ export const Menu: React.FC = () => {
   return (
     <>
       <div className={style.logo}>
-        <Image src={'/images/logo/main.png'} alt='BOX R' loading='lazy' width={150} height={150} />
+        <Link href={'/'}>
+          <Image src={'/images/logo/main.png'} alt='BOX R' loading='lazy' width={150} height={150} />
+        </Link>
       </div>
       <nav className={style.nav}>
         <ul className={style['nav-list']}>
