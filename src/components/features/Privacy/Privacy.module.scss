@@ -1,0 +1,56 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: $page-max-width;
+  padding: 32px 0 64px;
+  margin: auto;
+
+  section {
+    padding: 0 32px;
+    margin-bottom: 48px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: $t-primary;
+  }
+
+  ol {
+    padding-left: 0;
+    list-style-type: none;
+    counter-reset: item;
+
+    ol {
+      padding-left: 1em;
+    }
+
+    li {
+      padding-left: 1.3em;
+      text-indent: -1.3em;
+
+      &::before {
+        padding-right: 0.5em;
+        color: $t-primary;
+        content: counter(item) '.';
+        counter-increment: item;
+      }
+    }
+  }
+}
+
+.end {
+  text-align: right;
+}
+
+.signature {
+  span {
+    margin-right: 8px;
+  }
+}
