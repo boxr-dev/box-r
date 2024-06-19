@@ -9,7 +9,7 @@ type Prop = PropsWithChildren & {
 export const SectionTitle: React.FC<Prop> = ({ title, subTitle }) => {
   return (
     <div className={style.container}>
-      <h3 className={style.title}>{title}</h3>
+      <h2 className={style.title}>{title}</h2>
       {subTitle && <span className={style['sub-title']}>{subTitle}</span>}
     </div>
   )

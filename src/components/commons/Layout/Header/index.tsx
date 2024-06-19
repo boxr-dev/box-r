@@ -10,11 +10,11 @@ export const Header: React.FC = () => {
     <>
       <header className={style.container}>
         <div className={style['container-inner']}>
-          <h1 className={style.logo}>
+          <div className={style.logo}>
             <Link href={'/'}>
               <TitleImage role='img' aria-label='BOX R' />
             </Link>
-          </h1>
+          </div>
           <nav className={style.nav}>
             <ul className={style['nav-list']}>
               <NavItem href={'/about'}>ABOUT</NavItem>
