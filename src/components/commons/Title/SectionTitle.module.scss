@@ -1,0 +1,30 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: inline;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  position: relative;
+  display: inline-block;
+  font-size: 32px;
+  color: $t-primary;
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: $page-max-width;
+    margin-left: 16px;
+    content: '';
+    border-top: 1px solid $t-accent;
+  }
+}
+
+.sub-title {
+  display: block;
+  font-size: 24px;
+  color: $t-accent;
+}

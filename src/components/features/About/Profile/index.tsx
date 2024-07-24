@@ -24,6 +24,9 @@ export const Profile: React.FC = () => {
       </div>
       <div className={style.content}>
         <table className={style.career}>
+          <thead>
+            <h3>経歴</h3>
+          </thead>
           <tbody>
             <tr>
               <td>2010年</td>
@@ -39,11 +42,64 @@ export const Profile: React.FC = () => {
             </tr>
             <tr>
               <td>2013年9月</td>
-              <td>フレンチデコ認定取得、教室開講</td>
+              <td>フレンチデコ認定取得、教室開講（現在のフレンチメゾンデコール）</td>
             </tr>
           </tbody>
         </table>
         <p>日本橋三越カルチャーサロン、新宿伊勢丹OTOMANA、講師</p>
+        <p>三越伊勢丹オンラインショップ</p>
+        <div className={style.temp}>
+          <h3>書籍</h3>
+          <ul>
+            <li>「人気作家のタッセル、カルトナージュ、インテリア茶箱」草土出版</li>
+            <li>「インテリア茶箱の世界」dZERO</li>
+          </ul>
+        </div>
+        <div className={style.temp}>
+          <h3>ラジオ</h3>
+          <ul>
+            <li>FMヨコハマ「ファンケル横浜なでしこ」</li>
+          </ul>
+        </div>
+        <table className={style.career}>
+          <thead>
+            <h3>作品展示会</h3>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2014年〜</td>
+              <td>銀座奥野ビルにてグループ展</td>
+            </tr>
+            <tr>
+              <td>2015年〜</td>
+              <td>プラチナミセス祭</td>
+            </tr>
+            <tr>
+              <td>2015年〜</td>
+              <td>サロンドルールブルー</td>
+            </tr>
+            <tr>
+              <td>2015年</td>
+              <td>「インテリア茶箱の世界」出版記念</td>
+            </tr>
+            <tr>
+              <td>2019年</td>
+              <td>「21世紀アート ボーダーレス展」国立新美術館 インテリア茶箱</td>
+            </tr>
+            <tr>
+              <td>2021年〜</td>
+              <td>成城にて「Cachette」3人展</td>
+            </tr>
+            <tr>
+              <td>2022年</td>
+              <td>インテリア茶箱バーチャル展示会</td>
+            </tr>
+            <tr>
+              <td>2022年</td>
+              <td>「21世紀アート ボーダーレス展」国立新美術館 カルトナージュ</td>
+            </tr>
+          </tbody>
+        </table>
         <p className={style.annotation}>※インテリア茶箱は、インテリア茶箱クラブの登録商標です。</p>
       </div>
     </section>
