@@ -7,7 +7,9 @@ import style from '@/components/features/About/Profile/Profile.module.scss'
 export const Profile: React.FC = () => {
   return (
     <section className={style.container}>
-      <SectionTitle title='佐野 里江子' subTitle='Rieko Sano' />
+      <div className={style.title}>
+        <SectionTitle title='佐野 里江子' subTitle='Rieko Sano' />
+      </div>
       <div className={style.content}>
         <Paragraph>
           横浜市在住。
