@@ -1,7 +1,6 @@
 @use '@/styles/variables' as *;
 
 .container {
-  display: inline;
   width: 100%;
   overflow: hidden;
 }
@@ -9,7 +8,7 @@
 .title {
   position: relative;
   display: inline-block;
-  font-size: 32px;
+  font-size: 24px;
   color: $t-primary;
 
   &::after {
@@ -19,12 +18,6 @@
     width: $page-max-width;
     margin-left: 16px;
     content: '';
-    border-top: 1px solid $t-accent;
+    border-top: 1px dashed $t-secondary;
   }
-}
-
-.sub-title {
-  display: block;
-  font-size: 24px;
-  color: $t-accent;
 }

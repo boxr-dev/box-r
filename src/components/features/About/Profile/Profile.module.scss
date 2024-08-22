@@ -1,51 +1,60 @@
 @use '@/styles/variables' as *;
 
 .container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   width: 100%;
-
-  div {
-    margin: 0 32px 32px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
 }
 
 .content {
-  p {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.5;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 32px;
 }
 
 .career {
-  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   font-size: 16px;
 
-  td {
-    &:first-child {
-      width: 100px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: disc;
+
+    li {
+      margin-left: 20px;
     }
   }
 }
 
-.temp {
-  margin: 0 0 32px !important;
+.table {
+  tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  td {
+    &:first-child {
+      width: 84px;
+    }
+  }
 }
 
 .annotation {
   margin-top: 32px;
+  font-size: 14px;
   color: $t-secondary;
 }
 
 .image {
+  padding: 0 32px;
+
   img {
     position: relative !important; // TODO: importantを使うのは不本意なので、いい方法があれば修正したい
     object-fit: contain;
