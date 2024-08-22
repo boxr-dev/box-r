@@ -1,0 +1,11 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  max-width: $page-max-width;
+  padding: 32px 0 64px;
+  margin: auto;
+}
