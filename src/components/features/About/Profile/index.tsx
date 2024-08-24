@@ -27,7 +27,7 @@ export const Profile: React.FC = () => {
         <Paragraph>インテリア茶箱とカルトナージュのアトリエ「BOX R」を主宰。</Paragraph>
       </div>
       <div className={style.image}>
-        <Image src={'/images/about/profile.jpg'} alt='プロフィール画像' loading='lazy' fill />
+        <Image src={'/images/about/profile.jpg'} alt='プロフィール画像' loading='lazy' />
       </div>
       <div className={style.content}>
         <div className={style.career}>

@@ -10,8 +10,8 @@ export const Image: React.FC<ImageProps> = (props) => {
   }
 
   return (
-    <span className={style.container}>
-      <NextImage {...props} onLoad={onLoad} />
-    </span>
+    <div className={style.container}>
+      <NextImage {...props} onLoad={onLoad} fill />
+    </div>
   )
 }

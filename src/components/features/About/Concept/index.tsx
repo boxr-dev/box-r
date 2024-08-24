@@ -16,7 +16,7 @@ export const Concept: React.FC = () => {
         </Paragraph>
       </div>
       <div className={style.image}>
-        <Image src={'/images/about/main.jpg'} alt='ブランドイメージ' loading='lazy' fill />
+        <Image src={'/images/about/main.jpg'} alt='ブランドイメージ' loading='lazy' />
       </div>
     </section>
   )
