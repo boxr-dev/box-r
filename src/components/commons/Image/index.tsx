@@ -11,7 +11,7 @@ export const Image: React.FC<ImageProps> = (props) => {
 
   return (
     <div className={style.container}>
-      <NextImage {...props} onLoad={onLoad} fill />
+      <NextImage {...props} fill={typeof props.width === 'undefined'} onLoad={onLoad} />
     </div>
   )
 }
