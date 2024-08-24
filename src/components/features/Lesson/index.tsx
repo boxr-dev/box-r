@@ -22,10 +22,7 @@ export const Lesson: React.FC = () => {
           <List>
             <ListItemButton href='/lesson/1'>
               <ListItemImage src='/images/lesson/cartonnage.jpg' alt='カルトナージュの作品' />
-              <ListItemText
-                primary='単発レッスン（カルトナージュ）'
-                secondary='スキルに合わせてご希望の作品を制作して頂きます。'
-              />
+              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
             </ListItemButton>
           </List>
         </div>
@@ -36,14 +33,14 @@ export const Lesson: React.FC = () => {
               <ListItemImage src='/images/lesson/license.jpg' alt='ライセンスコースの作品' />
               <ListItemText
                 primary='ライセンスコース'
-                secondary='基本の10作品＋オリジナル作品を制作して、ライセンスが取得できるコースです。取得後、ディプロマコースにお進みいただけます。'
+                secondary='基本の 10 作品 + オリジナル作品を制作して、ライセンスが取得できるコースです。取得後、ディプロマコースにお進みいただけます。'
               />
             </ListItemButton>
             <ListItemButton href='/lesson/3'>
               <ListItemImage src='/images/lesson/diploma.jpg' alt='ディプロマコースの作品' />
               <ListItemText
                 primary='ディプロマコース'
-                secondary='19作品＋オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
+                secondary='19 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
               />
             </ListItemButton>
             <ListItemButton href='/lesson/4'>
@@ -66,10 +63,7 @@ export const Lesson: React.FC = () => {
           <List>
             <ListItemButton href='/lesson/5'>
               <ListItemImage src='/images/lesson/interior-chabako.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText
-                primary='単発レッスン（インテリア茶箱）'
-                secondary='スキルに合わせてご希望の作品を制作して頂きます。'
-              />
+              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
             </ListItemButton>
           </List>
         </div>
@@ -86,15 +80,12 @@ export const Lesson: React.FC = () => {
               <ListItemImage src='/images/lesson/mini-chabako.jpg' alt='インテリア茶箱の作品' />
               <ListItemText
                 primary='ミニ茶箱'
-                secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で製作します。'
+                secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
               />
             </ListItemButton>
             <ListItemButton href='/lesson/7'>
               <ListItemImage src='/images/lesson/ironing-board.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText
-                primary='アイロン台'
-                secondary='タッカーを使用し、インテリア雑貨のようなアイロンだいを製作します。ファブリックボードとしてもお使いいただけます。'
-              />
+              <ListItemText primary='アイロン台' secondary='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。' />
             </ListItemButton>
             <ListItemButton href='/lesson/8'>
               <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
