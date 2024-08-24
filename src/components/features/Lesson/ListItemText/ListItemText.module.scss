@@ -1,0 +1,17 @@
+@use '@/styles/variables' as *;
+
+.container {
+  flex: 1 1 auto;
+}
+
+.primary {
+  font-size: 16px;
+  line-height: 1.8;
+  color: $t-primary;
+}
+
+.secondary {
+  font-size: 14px;
+  line-height: 1.4;
+  color: $t-secondary;
+}

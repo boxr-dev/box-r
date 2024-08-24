@@ -1,0 +1,19 @@
+@use '@/styles/variables' as *;
+
+.container {
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  overflow: hidden;
+  border-radius: 8px;
+
+  @include mq(sm) {
+    flex: 0 0 56px;
+    width: 56px;
+    height: 56px;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
