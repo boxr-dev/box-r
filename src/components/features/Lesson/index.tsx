@@ -13,6 +13,15 @@ export const Lesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='レッスン' />
       <section className={style.section}>
+        <Paragraph>
+          見本通りのものを作ることが多いハンドメイド系のレッスンとは一線を画し、好きな資材を選んで制作するオリジナル感たっぷりのレッスンです。
+          どんなテイストにも対応できる幅広い種類の資材を豊富にご用意しています。迷う楽しさや選ぶ醍醐味も味わってください。
+        </Paragraph>
+        <Paragraph>
+          また、経験から得た独自の「美しく作るためのコツ」もお伝えしています。色合わせが苦手、不器用とおっしゃり、不安に感じる方にも楽しんでいただけるよう、丁寧な指導を心がけています。
+        </Paragraph>
+      </section>
+      <section className={style.section}>
         <SectionTitle title='カルトナージュ' subTitle='Cartonnage' />
         <div className={style.discription}>
           <Paragraph>TODO: カルトナージュについての説明をいれる</Paragraph>
