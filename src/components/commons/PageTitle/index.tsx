@@ -1,12 +1,11 @@
-import { PropsWithChildren } from 'react'
 import style from '@/components/commons/PageTitle/PageTitle.module.scss'
 
-type Prop = PropsWithChildren & {
+type Props = {
   title: string
   subTitle: string
 }
 
-export const PageTitle: React.FC<Prop> = ({ title, subTitle }) => {
+export const PageTitle: React.FC<Props> = ({ title, subTitle }) => {
   return (
     <section className={style.container}>
       <h1 className={style.title}>{title}</h1>

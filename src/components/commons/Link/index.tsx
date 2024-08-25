@@ -1,13 +1,13 @@
 import NextLink from 'next/link'
 import { PropsWithChildren } from 'react'
 
-type Prop = PropsWithChildren & {
+type Props = PropsWithChildren<{
   className?: string
   href: string
   isExternalLink: boolean
-}
+}>
 
-export const Link: React.FC<Prop> = ({ children, className, href, isExternalLink }) => {
+export const Link: React.FC<Props> = ({ children, className, href, isExternalLink }) => {
   return (
     <>
       {isExternalLink ? (

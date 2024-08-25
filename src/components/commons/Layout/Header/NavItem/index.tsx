@@ -3,12 +3,12 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 import style from '@/components/commons/Layout/Header/NavItem/NavItem.module.scss'
 import { Link } from '@/components/commons/Link'
 
-type Prop = PropsWithChildren & {
+type Props = PropsWithChildren<{
   href: string
   isExternalLink?: boolean
-}
+}>
 
-export const NavItem: React.FC<Prop> = ({ children, href, isExternalLink }) => {
+export const NavItem: React.FC<Props> = ({ children, href, isExternalLink }) => {
   return (
     <li className={style.container}>
       <Link className={style.link} href={href} isExternalLink={isExternalLink || false}>

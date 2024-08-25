@@ -10,7 +10,7 @@ type Props = PropsWithChildren<{
   siteName: string
 }>
 
-export const Layout: React.FC<Props> = ({ title, description, siteName, children }) => {
+export const Layout: React.FC<Props> = ({ children, title, description, siteName }) => {
   const url = process.env.NEXT_PUBLIC_BASE_URL
   return (
     <>

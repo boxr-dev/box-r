@@ -2,12 +2,12 @@ import { PropsWithChildren } from 'react'
 import { Link } from '@/components/commons/Link'
 import style from '@/components/features/Lesson/ListItemButton/ListItemButton.module.scss'
 
-type Props = PropsWithChildren & {
+type Props = PropsWithChildren<{
   href: string
   isExternalLink?: boolean
-}
+}>
 
-export const ListItemButton: React.FC<Props> = ({ href, isExternalLink, children }) => {
+export const ListItemButton: React.FC<Props> = ({ children, href, isExternalLink }) => {
   return (
     <li className={style.container}>
       <Link className={style.link} href={href} isExternalLink={isExternalLink || false}>
