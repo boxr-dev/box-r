@@ -21,17 +21,6 @@ export const Footer: React.FC = () => {
             </li>
             <li className={style['nav-list-item']}>
               <TextLink href={'/lesson'}>レッスン</TextLink>
-              <ul className={style['nav-child-list']}>
-                <li className={style['nav-child-list-item']}>
-                  <TextLink href={'/lesson/chabako'}>インテリア茶箱</TextLink>
-                </li>
-                <li className={style['nav-child-list-item']}>
-                  <TextLink href={'/lesson/cartonnage'}>カルトナージュ</TextLink>
-                </li>
-                <li className={style['nav-child-list-item']}>
-                  <TextLink href={'/lesson/french-deco'}>フレンチ メゾン デコール</TextLink>
-                </li>
-              </ul>
             </li>
           </ul>
           <ul className={style['nav-list']}>
@@ -64,9 +53,7 @@ export const Footer: React.FC = () => {
           <div className={style.sns}>
             <div className={style['sns-list']}>
               <span className={style['sns-list-text']}>Follow on</span>
-              <span className={style['caret-icon']}>
-                <FaCaretRight />
-              </span>
+              <FaCaretRight />
               <div className={style['instagram-icon']}>
                 <IconLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
                   <FaInstagram role='img' aria-label='Instagram' />
@@ -76,7 +63,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className={style['copy-right']}>
             <div className={style['copy-right-text']}>
-              <span>© 2023 BOX R</span>
+              <span>© 2024 BOX R</span>
             </div>
           </div>
         </div>

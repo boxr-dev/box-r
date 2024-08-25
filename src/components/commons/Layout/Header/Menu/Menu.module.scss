@@ -40,23 +40,14 @@
 
 .sns {
   display: flex;
+  gap: 8px;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.sns-list {
-  display: flex;
-  align-items: center;
-}
-
-.sns-list-text {
+.memo {
   padding: 0 8px;
-}
-
-.caret {
-  display: flex;
-  margin: 0 8px;
 }
 
 .instagram-icon {

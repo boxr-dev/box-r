@@ -44,16 +44,12 @@ export const Menu: React.FC = () => {
         </ul>
       </nav>
       <div className={style.sns}>
-        <div className={style['sns-list']}>
-          <span className={style['sns-list-text']}>Follow on</span>
-          <span className={style.caret}>
-            <FaCaretRight />
-          </span>
-          <div className={style['instagram-icon']}>
-            <IconLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
-              <FaInstagram />
-            </IconLink>
-          </div>
+        <span className={style.memo}>Follow on</span>
+        <FaCaretRight />
+        <div className={style['instagram-icon']}>
+          <IconLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
+            <FaInstagram />
+          </IconLink>
         </div>
       </div>
     </>
