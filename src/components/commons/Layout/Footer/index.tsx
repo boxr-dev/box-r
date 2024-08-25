@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className={style['copy-right']}>
             <div className={style['copy-right-text']}>
-              <span>© 2024 BOX R</span>
+              <span>© {new Date().getFullYear()} BOX R</span>
             </div>
           </div>
         </div>

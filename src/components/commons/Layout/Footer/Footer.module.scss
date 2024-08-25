@@ -49,29 +49,32 @@
 }
 
 .nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 220px;
+  padding: 16px 0;
 
   @include mq(sm) {
+    gap: 0;
     width: 100%;
     padding: 0 32px;
+  }
+
+  &:first-child {
+    li:first-child {
+      @include mq(sm) {
+        border-top: 1px #eee solid;
+      }
+    }
   }
 }
 
 .nav-list-item {
-  margin: 16px 0;
-  font-weight: bold;
-
   @include mq(sm) {
     height: 60px;
     margin: 0;
-    font-weight: normal;
     border-bottom: 1px #eee solid;
-  }
-
-  &:first-child {
-    @include mq(sm) {
-      border-top: 1px #eee solid;
-    }
   }
 
   a {
