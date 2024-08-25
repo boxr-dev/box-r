@@ -9,6 +9,10 @@
   padding: 32px 0 64px;
   margin: auto;
 
+  @include mq(sm) {
+    font-size: 14px;
+  }
+
   section {
     padding: 0 32px;
   }

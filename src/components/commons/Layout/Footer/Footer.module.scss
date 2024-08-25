@@ -12,7 +12,8 @@
   margin: 0 auto;
 
   @include mq(sm) {
-    display: block;
+    flex-direction: column;
+    gap: 32px;
     min-width: 360px;
     padding: 32px 0 64px;
   }
@@ -25,7 +26,6 @@
 
   @include mq(sm) {
     justify-content: center;
-    margin-bottom: 32px;
   }
 
   img {
@@ -43,8 +43,7 @@
   margin-left: 64px;
 
   @include mq(sm) {
-    display: block;
-    margin-bottom: 32px;
+    flex-direction: column;
     margin-left: 0;
   }
 }
@@ -60,13 +59,11 @@
 
 .nav-list-item {
   margin: 16px 0;
-  font-size: 1rem;
   font-weight: bold;
 
   @include mq(sm) {
     height: 60px;
     margin: 0;
-    font-size: 1.2rem;
     font-weight: normal;
     border-bottom: 1px #eee solid;
   }
@@ -129,10 +126,6 @@
 
 .sns-list-text {
   padding: 0 8px;
-
-  @include mq(sm) {
-    font-size: 1.2rem;
-  }
 }
 
 .caret-icon {
@@ -141,11 +134,7 @@
 }
 
 .instagram-icon {
-  font-size: 1.4rem;
-
-  @include mq(sm) {
-    font-size: 1.6rem;
-  }
+  font-size: 24px;
 }
 
 .copy-right {
@@ -169,6 +158,6 @@
   @include mq(sm) {
     margin-right: auto;
     margin-bottom: 0;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }

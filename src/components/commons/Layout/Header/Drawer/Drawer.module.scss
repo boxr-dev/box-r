@@ -81,6 +81,9 @@ $animation-sec: 0.3s;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   height: auto;
   padding: 48px 0;
 }
