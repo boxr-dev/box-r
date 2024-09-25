@@ -34,7 +34,7 @@ export const Lesson: React.FC = () => {
           <List>
             <ListItemButton href='/lesson/1'>
               <ListItemImage src='/images/lesson/cartonnage.jpg' alt='カルトナージュの作品' />
-              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
+              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作します。' />
             </ListItemButton>
           </List>
         </div>
@@ -52,7 +52,7 @@ export const Lesson: React.FC = () => {
               <ListItemImage src='/images/lesson/diploma.jpg' alt='ディプロマコースの作品' />
               <ListItemText
                 primary='ディプロマコース'
-                secondary='19 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
+                secondary='16 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
               />
             </ListItemButton>
             <ListItemButton href='/lesson/4'>
@@ -79,7 +79,7 @@ export const Lesson: React.FC = () => {
           <List>
             <ListItemButton href='/lesson/5'>
               <ListItemImage src='/images/lesson/interior-chabako.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
+              <ListItemText primary='単発レッスン' secondary='ご希望のサイズのインテリア茶箱を制作します。' />
             </ListItemButton>
           </List>
         </div>
@@ -106,7 +106,10 @@ export const Lesson: React.FC = () => {
             </ListItemButton>
             <ListItemButton href='/lesson/9'>
               <ListItemImage src='/images/lesson/tassel.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='タッセル' secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。' />
+              <ListItemText
+                primary='タッセル（APJ）'
+                secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。'
+              />
             </ListItemButton>
           </List>
         </div>
