@@ -13,18 +13,21 @@ export const Lesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='レッスン' />
       <section className={style.section}>
+        <Paragraph>楽しんでいただくことをコンセプトに皆様のエッセンスの入った作品作りのお手伝いをさせていただきます。</Paragraph>
         <Paragraph>
-          見本通りのものを作ることが多いハンドメイド系のレッスンとは一線を画し、好きな資材を選んで制作するオリジナル感たっぷりのレッスンです。
-          どんなテイストにも対応できる幅広い種類の資材を豊富にご用意しています。迷う楽しさや選ぶ醍醐味も味わってください。
-        </Paragraph>
-        <Paragraph>
-          また、経験から得た独自の「美しく作るためのコツ」もお伝えしています。色合わせが苦手、不器用とおっしゃり、不安に感じる方にも楽しんでいただけるよう、丁寧な指導を心がけています。
+          生地を選ぶ楽しみを感じながら、自分のアイデアを形にし、欲しいものが少しずつ出来上がっていく過程をお楽しみください。
+          迷ったときや不安な点があれば、お気軽にお声掛けください。創造力を発揮し、一緒に楽しい時間を過ごしましょう。
         </Paragraph>
       </section>
       <section className={style.section}>
         <SectionTitle title='カルトナージュ' subTitle='Cartonnage' />
         <div className={style.discription}>
-          <Paragraph>TODO: カルトナージュについての説明をいれる</Paragraph>
+          <Paragraph>
+            カルトナージュとは、
+            カルトン(厚紙)を好みの形にカットし、組み立て、お気に入りのファブリックや革、ペーパーなどを使用して自分だけの作品に仕上げる物です。
+            こんな大きさで、こんな形のものが欲しかった。欲しいをカスタマイズできるのが魅力です。
+            作って楽しく、使って幸せになるカルトナージュの世界を是非お楽しみ下さい。
+          </Paragraph>
         </div>
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
@@ -65,7 +68,11 @@ export const Lesson: React.FC = () => {
       <section className={style.section}>
         <SectionTitle title='インテリア茶箱' subTitle='Interior Chabako' />
         <div className={style.discription}>
-          <Paragraph>TODO: インテリア茶箱についての説明をいれる</Paragraph>
+          <Paragraph>
+            インテリア茶箱とは、茶葉を大切に保管し、防虫・防湿効果のある茶箱に布や革などを使用して家具に仕立てた物です。
+            インテリアとして美しく、かつ実用性も高いのが魅力です。
+            好みの大きさ、お気入りのファブリックで理想的な収納家具を作ってみませんか？
+          </Paragraph>
         </div>
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
@@ -79,9 +86,6 @@ export const Lesson: React.FC = () => {
       </section>
       <section className={style.section}>
         <SectionTitle title='その他' subTitle='Others' />
-        <div className={style.discription}>
-          <Paragraph>TODO: それ以外にも色々できることの説明をいれる</Paragraph>
-        </div>
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
@@ -98,11 +102,11 @@ export const Lesson: React.FC = () => {
             </ListItemButton>
             <ListItemButton href='/lesson/8'>
               <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='グルーバッグ' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
+              <ListItemText primary='グルーバッグ' secondary='縫わずにグルーで仕上げるハンドメイドバッグを制作します。' />
             </ListItemButton>
             <ListItemButton href='/lesson/9'>
               <ListItemImage src='/images/lesson/tassel.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='タッセル' secondary='スキルに合わせてご希望の作品を制作して頂きます。' />
+              <ListItemText primary='タッセル' secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。' />
             </ListItemButton>
           </List>
         </div>
