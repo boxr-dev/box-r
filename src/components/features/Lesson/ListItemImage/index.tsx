@@ -9,7 +9,7 @@ type Props = {
 export const ListItemImage: React.FC<Props> = ({ src, alt }) => {
   return (
     <div className={style.container}>
-      <Image src={src} alt={alt} width={88} height={88} loading='lazy' />
+      <Image src={src} alt={alt} fill loading='lazy' />
     </div>
   )
 }

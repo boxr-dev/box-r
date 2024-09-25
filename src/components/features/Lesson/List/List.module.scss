@@ -2,4 +2,11 @@
 
 .container {
   padding: 8px 0;
+
+  @include mq(xs) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+  }
 }

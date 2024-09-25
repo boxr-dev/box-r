@@ -2,15 +2,30 @@
 
 .container {
   flex: 1 1 auto;
+
+  @include mq(xs) {
+    width: 100%;
+    padding: 16px;
+  }
 }
 
 .primary {
-  line-height: 1.8;
+  font-size: 20px;
+  line-height: 1.2;
   color: $t-primary;
+
+  @include mq(xs) {
+    line-height: 1.4;
+  }
 }
 
 .secondary {
+  margin-top: 12px;
   font-size: 14px;
   line-height: 1.4;
   color: $t-secondary;
+
+  @include mq(xs) {
+    margin-top: 8px;
+  }
 }

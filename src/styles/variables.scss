@@ -30,6 +30,7 @@ $z-index-drawer-menu-btn: 1200;
 
 // メディアクエリ
 $breakpoints: (
+  'xs': 'screen and (max-width: 540px)',
   'sm': 'screen and (max-width: 859px)',
   'md': 'screen and (max-width: 1199px)',
   'lg': 'screen and (min-width: 1200px)',
