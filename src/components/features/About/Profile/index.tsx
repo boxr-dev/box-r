@@ -58,6 +58,14 @@ export const Profile: React.FC = () => {
           <ul>
             <li>「人気作家のタッセル、カルトナージュ、インテリア茶箱」草土出版</li>
             <li>「インテリア茶箱の世界」dZERO</li>
+            <li>「ステッチイデー」日本ヴォーグ社</li>
+            <li>「すてきにハンドメイド 2024年11月号」NHK出版</li>
+          </ul>
+        </div>
+        <div className={style.career}>
+          <ContentTitle>テレビ</ContentTitle>
+          <ul>
+            <li>NHK「すてきにハンドメイド」</li>
           </ul>
         </div>
         <div className={style.career}>
