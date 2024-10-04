@@ -4,7 +4,7 @@ import { Privacy } from '@/components/features/Privacy'
 
 const PrivacyPage: NextPage = () => {
   return (
-    <Layout title={'プライバシーポリシー | BOX R'} description={'ディスクリプション'} siteName={'プライバシーポリシー'}>
+    <Layout title={'プライバシーポリシー | BOX R'} description={'ディスクリプション'}>
       <Privacy />
     </Layout>
   )

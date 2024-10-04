@@ -7,10 +7,9 @@ import style from '@/components/commons/Layout/Layout.module.scss'
 type Props = PropsWithChildren<{
   title: string
   description: string
-  siteName: string
 }>
 
-export const Layout: React.FC<Props> = ({ children, title, description, siteName }) => {
+export const Layout: React.FC<Props> = ({ children, title, description }) => {
   const url = process.env.NEXT_PUBLIC_BASE_URL
   return (
     <>
@@ -20,9 +19,9 @@ export const Layout: React.FC<Props> = ({ children, title, description, siteName
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
         <meta property='og:url' content={url} />
-        <meta property='og:image' content={`${url}/ogp.jpg`} />
+        <meta property='og:image' content={`${url}/images/ogp.jpg`} />
         <meta property='og:type' content='website' />
-        <meta property='og:site_name' content={siteName} />
+        <meta property='og:site_name' content='BOX R' />
         <meta name='twitter:card' content='summary_large_image' />
       </Head>
       <Header />

@@ -4,7 +4,7 @@ import { About } from '@/components/features/About'
 
 const AboutPage: NextPage = () => {
   return (
-    <Layout title={'BOX R について | BOX R'} description={'ディスクリプション'} siteName={'BOX R'}>
+    <Layout title={'BOX R について | BOX R'} description={'ディスクリプション'}>
       <About />
     </Layout>
   )

@@ -4,7 +4,7 @@ import { Index } from '@/components/features/Index'
 
 const IndexPage: NextPage = () => {
   return (
-    <Layout title={'BOX R | インテリア茶箱カルトナージュ教室'} description={'ディスクリプション'} siteName={'BOX R'}>
+    <Layout title={'BOX R | インテリア茶箱カルトナージュ教室'} description={'ディスクリプション'}>
       <Index />
     </Layout>
   )
