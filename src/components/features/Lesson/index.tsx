@@ -1,5 +1,5 @@
 import { List } from './List'
-import { ListItemButton } from './ListItemButton'
+import { ListItemCard } from './ListItemCard'
 import { ListItemImage } from './ListItemImage'
 import { ListItemText } from './ListItemText'
 import { ContentTitle } from '@/components/commons/ContentTitle'
@@ -32,36 +32,36 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/1'>
+            <ListItemCard href='/lesson/1'>
               <ListItemImage src='/images/lesson/cartonnage.jpg' alt='カルトナージュの作品' />
               <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作します。' />
-            </ListItemButton>
+            </ListItemCard>
           </List>
         </div>
         <div>
           <ContentTitle>コースレッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/2'>
+            <ListItemCard href='/lesson/2'>
               <ListItemImage src='/images/lesson/license.jpg' alt='ライセンスコースの作品' />
               <ListItemText
                 primary='ライセンスコース'
                 secondary='基本の 10 作品 + オリジナル作品を制作して、ライセンスが取得できるコースです。取得後、ディプロマコースにお進みいただけます。'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/3'>
+            </ListItemCard>
+            <ListItemCard href='/lesson/3'>
               <ListItemImage src='/images/lesson/diploma.jpg' alt='ディプロマコースの作品' />
               <ListItemText
                 primary='ディプロマコース'
                 secondary='16 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/4'>
+            </ListItemCard>
+            <ListItemCard href='/lesson/4'>
               <ListItemImage src='/images/lesson/french-maison-decor.jpg' alt='フレンチメゾンデコールの作品' />
               <ListItemText
                 primary='フレンチメゾンデコール'
                 secondary='カルトナージュを中心にインテリアに関する手工芸を学び、ディプロマが取得できるコースです。'
               />
-            </ListItemButton>
+            </ListItemCard>
           </List>
         </div>
       </section>
@@ -77,10 +77,10 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/5'>
+            <ListItemCard href='/lesson/5'>
               <ListItemImage src='/images/lesson/interior-chabako.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='単発レッスン' secondary='ご希望のサイズのインテリア茶箱を制作します。' />
-            </ListItemButton>
+            </ListItemCard>
           </List>
         </div>
       </section>
@@ -89,28 +89,28 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/6'>
+            <ListItemCard href='/lesson/6'>
               <ListItemImage src='/images/lesson/mini-chabako.jpg' alt='インテリア茶箱の作品' />
               <ListItemText
                 primary='ミニ茶箱'
                 secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/7'>
+            </ListItemCard>
+            <ListItemCard href='/lesson/7'>
               <ListItemImage src='/images/lesson/ironing-board.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='アイロン台' secondary='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。' />
-            </ListItemButton>
-            <ListItemButton href='/lesson/8'>
+            </ListItemCard>
+            <ListItemCard href='/lesson/8'>
               <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='グルーバッグ' secondary='縫わずにグルーで仕上げるハンドメイドバッグを制作します。' />
-            </ListItemButton>
-            <ListItemButton href='/lesson/9'>
+            </ListItemCard>
+            <ListItemCard href='/lesson/9'>
               <ListItemImage src='/images/lesson/tassel.jpg' alt='インテリア茶箱の作品' />
               <ListItemText
                 primary='タッセル（APJ）'
                 secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。'
               />
-            </ListItemButton>
+            </ListItemCard>
           </List>
         </div>
       </section>
