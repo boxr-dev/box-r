@@ -4,7 +4,12 @@ import { Lesson } from '@/components/features/Lesson'
 
 const LessonPage: NextPage = () => {
   return (
-    <Layout title={'レッスン | BOX R'} description={'ディスクリプション'}>
+    <Layout
+      title={'レッスン | BOX R'}
+      description={
+        'BOX R は、カルトナージュとインテリア茶箱のアトリエです。インテリアに馴染みつつも存在感のある作品作りを心がけております。'
+      }
+    >
       <Lesson />
     </Layout>
   )
