@@ -14,7 +14,7 @@ export const Profile: React.FC = () => {
         <Paragraph>
           横浜市在住。
           <br />
-          短大卒業後、大手広告代理店に勤務したが、出産を機に退職。3人の子育てを通して様々なクラフトに出会う。
+          短大卒業後、大手広告代理店に勤務し、出産を機に退職。3人の子育てを通して様々なクラフトに出会う。
         </Paragraph>
         <Paragraph>
           その中でも、楽しく生地選びができるカルトナージュに魅了され、Atelier Ange Cartonnage にて学び、Atelier cartonnage diploma
