@@ -39,6 +39,11 @@ export const Footer: React.FC = () => {
                 ブログ
               </TextLink>
             </li>
+            <li className={style['nav-list-item-mb']}>
+              <TextLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
+                Instagram
+              </TextLink>
+            </li>
             <li className={style['nav-list-item']}>
               <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
                 お問い合わせ

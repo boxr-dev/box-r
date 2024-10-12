@@ -37,6 +37,11 @@ export const Menu: React.FC = () => {
             </TextLink>
           </li>
           <li className={style['nav-list-item']}>
+            <TextLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
+              Instagram
+            </TextLink>
+          </li>
+          <li className={style['nav-list-item']}>
             <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
               お問い合わせ
             </TextLink>

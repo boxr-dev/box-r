@@ -14,7 +14,6 @@
   @include mq(sm) {
     flex-direction: column;
     gap: 32px;
-    min-width: 360px;
     padding: 32px 0 64px;
   }
 }
@@ -59,11 +58,9 @@
     gap: 0;
     width: 100%;
     padding: 0 32px;
-  }
 
-  &:first-child {
-    li:first-child {
-      @include mq(sm) {
+    &:first-child {
+      li:first-child {
         border-top: 1px #eee solid;
       }
     }
@@ -75,10 +72,26 @@
     height: 60px;
     margin: 0;
     border-bottom: 1px #eee solid;
-  }
 
-  a {
-    @include mq(sm) {
+    a {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.nav-list-item-mb {
+  display: none;
+
+  @include mq(sm) {
+    display: block;
+    height: 60px;
+    margin: 0;
+    border-bottom: 1px #eee solid;
+
+    a {
       display: flex;
       align-items: center;
       width: 100%;

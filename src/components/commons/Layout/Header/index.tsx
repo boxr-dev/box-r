@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { FaInstagram } from 'react-icons/fa'
+import { IconLink } from '../../Link/IconLink'
 import { Drawer } from '@/components/commons/Layout/Header/Drawer'
 import style from '@/components/commons/Layout/Header/Header.module.scss'
 import { Menu } from '@/components/commons/Layout/Header/Menu'
@@ -34,6 +36,11 @@ export const Header: React.FC = () => {
                 CONTACT
               </NavItem>
             </ul>
+            <div className={style['instagram-icon']}>
+              <IconLink href={'https://www.instagram.com/boxr_rieko'} isExternalLink>
+                <FaInstagram role='img' aria-label='Instagram' />
+              </IconLink>
+            </div>
           </nav>
         </div>
       </header>
