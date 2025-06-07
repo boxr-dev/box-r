@@ -6,9 +6,7 @@ const OneShotInteriorChabakoLessonPage: NextPage = () => {
   return (
     <Layout
       title={'単発レッスン（インテリア茶箱） | BOX R'}
-      description={
-        '佐野里江子 | BOX R は、カルトナージュとインテリア茶箱のアトリエです。インテリアに馴染みつつも存在感のある作品作りを心がけております。'
-      }
+      description={'佐野里江子 | ご希望のサイズのインテリア茶箱を制作します。'}
     >
       <OneShotInteriorChabakoLesson />
     </Layout>

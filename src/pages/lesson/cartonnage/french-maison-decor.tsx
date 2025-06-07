@@ -6,9 +6,7 @@ const FrenchMaisonDecorLessonPage: NextPage = () => {
   return (
     <Layout
       title={'フレンチメゾンデコール（カルトナージュ） | BOX R'}
-      description={
-        '佐野里江子 | BOX R は、カルトナージュとインテリア茶箱のアトリエです。インテリアに馴染みつつも存在感のある作品作りを心がけております。'
-      }
+      description={'佐野里江子 | カルトナージュを中心にインテリアに関する手工芸を学び、ディプロマが取得できるコースです。'}
     >
       <FrenchMaisonDecorLesson />
     </Layout>

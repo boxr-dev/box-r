@@ -6,9 +6,7 @@ const LessonPage: NextPage = () => {
   return (
     <Layout
       title={'単発レッスン（カルトナージュ） | BOX R'}
-      description={
-        '佐野里江子 | BOX R は、カルトナージュとインテリア茶箱のアトリエです。インテリアに馴染みつつも存在感のある作品作りを心がけております。'
-      }
+      description={'佐野里江子 | スキルに合わせてご希望の作品を制作します。'}
     >
       <OneShotCartonnageLesson />
     </Layout>
