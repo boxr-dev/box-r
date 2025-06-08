@@ -19,11 +19,11 @@ export const LicenseCartonnageLesson: React.FC = () => {
             <Paragraph>コース終了後は、コースで習った作品のレッスン・販売が可能となります。</Paragraph>
             <Paragraph>その際、《BOX R design》と明記が必要です。(SNS掲載も同様)</Paragraph>
           </div>
-          <ul>
-            <li>1レッスン4~5名様までの少人数制です。</li>
-            <li>道具はすべてアトリエに用意がございます。（※道具のレンタル費用はかかりません）</li>
-            <li>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</li>
-          </ul>
+          <div>
+            <Paragraph>1レッスン4~5名様までの少人数制です。</Paragraph>
+            <Paragraph>道具はすべてアトリエに用意がございます。（道具のレンタル費用はかかりません）</Paragraph>
+            <Paragraph>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</Paragraph>
+          </div>
         </div>
         <div>
           <ContentTitle>カリキュラム内容</ContentTitle>
@@ -55,8 +55,7 @@ export const LicenseCartonnageLesson: React.FC = () => {
             <Paragraph>講習費：¥4,500 ＋ 材料費</Paragraph>
             <Paragraph>ライセンス申請料：¥30,000</Paragraph>
             <div className={style['sub-paragraph']}>
-              <Paragraph>※作品数ではなく、レッスン時間での対応とさせていただきます。</Paragraph>
-              <Paragraph>※材料費は、作品によって異なります。</Paragraph>
+              <Paragraph>※作品数ではなく、レッスン時間での費用です。</Paragraph>
               <Paragraph>※支払い方法は 現金 or PayPay です。（当日精算）</Paragraph>
             </div>
           </div>

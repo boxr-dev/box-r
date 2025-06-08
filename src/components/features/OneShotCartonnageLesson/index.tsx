@@ -17,11 +17,11 @@ export const OneShotCartonnageLesson: React.FC = () => {
             <Paragraph>Instagramやブログに載っているものであれば基本的になんでもOKです。</Paragraph>
             <Paragraph>作りたい作品については、事前にご相談ください。</Paragraph>
           </div>
-          <ul>
-            <li>1レッスン4~5名様までの少人数制です。</li>
-            <li>道具はすべてアトリエに用意がございます。（※道具のレンタル費用はかかりません）</li>
-            <li>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</li>
-          </ul>
+          <div>
+            <Paragraph>1レッスン4~5名様までの少人数制です。</Paragraph>
+            <Paragraph>道具はすべてアトリエに用意がございます。（道具のレンタル費用はかかりません）</Paragraph>
+            <Paragraph>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</Paragraph>
+          </div>
         </div>
         <div>
           <ContentTitle>時間</ContentTitle>
@@ -34,7 +34,7 @@ export const OneShotCartonnageLesson: React.FC = () => {
           <div className={style.discription}>
             <Paragraph>講習費：¥3,500〜6,000 ＋ 材料費</Paragraph>
             <div className={style['sub-paragraph']}>
-              <Paragraph>※材料費は、作品によって異なります。</Paragraph>
+              <Paragraph>※作品数ではなく、レッスン時間での費用です。</Paragraph>
               <Paragraph>※支払い方法は 現金 or PayPay です。（当日精算）</Paragraph>
             </div>
           </div>

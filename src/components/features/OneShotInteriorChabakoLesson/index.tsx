@@ -13,23 +13,27 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
         <SectionTitle title='単発レッスン' subTitle='One shot lesson' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
-            <Paragraph>インテリア茶箱クラブ認定インストラクター</Paragraph>
+            <Paragraph>インテリア茶箱クラブ認定インストラクターによるレッスンです。</Paragraph>
             <Paragraph>19種類からご希望の茶箱サイズにて、レッスンさせていただきます。</Paragraph>
           </div>
           <div className={style['paragraph-wrapper']}>
-            <Paragraph>ご自宅にある茶箱を使用してのレッスンをご希望の方はご相談ください。</Paragraph>
-            <Paragraph>8〜12時間のレッスンで1個のインテリア茶箱を制作していただいております。</Paragraph>
-            <Paragraph>内箱などの制作をご希望の場合は、追加レッスンが必要となります。</Paragraph>
-            <div className={style['sub-paragraph']}>
-              <Paragraph>※茶箱サイズは一覧表を参照ください。</Paragraph>
-              <Paragraph>※レッスンや販売をご希望の方は、インテリア茶箱クラブインストラクターコースをご受講ください。</Paragraph>
-            </div>
+            <Paragraph>ご自宅にある茶箱を使用してのレッスンをご希望の方は、ご相談ください。</Paragraph>
+            <Paragraph>
+              8 ~ 12時間のレッスンで1個のインテリア茶箱を制作していただいております。（1個の茶箱につき、約2 ~
+              3回のレッスンが必要です）
+            </Paragraph>
+            <Paragraph>内箱などの制作をご希望の場合は、追加のレッスンが必要となります。</Paragraph>
           </div>
-          <ul>
-            <li>1レッスン4~5名様までの少人数制です。</li>
-            <li>道具はすべてアトリエに用意がございます。（※道具のレンタル費用はかかりません）</li>
-            <li>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</li>
-          </ul>
+          <div className={style['paragraph-wrapper']}>
+            <Paragraph>
+              ご自身でレッスンを開講したり、制作された作品の販売を希望される方は、インテリア茶箱クラブインストラクターコースをご受講ください。
+            </Paragraph>
+          </div>
+          <div>
+            <Paragraph>1レッスン4~5名様までの少人数制です。</Paragraph>
+            <Paragraph>道具はすべてアトリエに用意がございます。（道具のレンタル費用はかかりません）</Paragraph>
+            <Paragraph>材料はお持ち込みも、アトリエの在庫からもお選びいただけます。</Paragraph>
+          </div>
         </div>
         <div>
           <ContentTitle>時間</ContentTitle>
@@ -42,8 +46,8 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
           <div className={style.discription}>
             <Paragraph>講習費：¥5,000 ＋ 材料費</Paragraph>
             <div className={style['sub-paragraph']}>
-              <Paragraph>※作品数ではなく、レッスン時間での対応とさせていただきます。</Paragraph>
-              <Paragraph>※材料費は、作品によって異なります。</Paragraph>
+              <Paragraph>※作品数ではなく、レッスン時間での費用です。</Paragraph>
+              <Paragraph>※茶箱サイズは一覧表を参照ください。</Paragraph>
               <Paragraph>※支払い方法は 現金 or PayPay です。（当日精算）</Paragraph>
             </div>
           </div>
