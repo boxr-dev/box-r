@@ -1,0 +1,9 @@
+{
+  // copilot関連
+  "github.copilot.enable": true, // GitHub Copilotの有効化
+  "github.copilot.editor.enableAutoCompletions": true, // Copilotのコード補完機能の有効化
+  "github.copilot.chat.localeOverride": "ja-JP", // Copilot Chatの言語を日本語に設定
+  "github.copilot.inlineSuggest.enable": true, // インラインでの候補表示機能の有効化
+  "editor.inlineSuggest.showToolbar": "always", // インライン候補のツールバー表示を常に表示
+  "editor.inlineSuggest.suppressSuggestions": false, // インライン候補表示時に通常の候補を非表示にしない
+}
