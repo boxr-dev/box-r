@@ -1,13 +1,23 @@
 @use '@/styles/variables' as *;
 
-$transition: 0.2s ease-out;
-
 .container {
   display: flex;
   font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.link {
+  padding: 15px 40px;
+}
+
+.contained {
   color: $t-contrast-primary;
   background-color: $c-secondary;
-  border-radius: 4px;
+  box-shadow:
+    0 3px 1px -2px rgb(0 0 0 / 20%),
+    0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
   opacity: 0.9;
 
   &:focus,
@@ -20,6 +30,14 @@ $transition: 0.2s ease-out;
   }
 }
 
-.link {
-  padding: 15px 40px;
+.outlined {
+  color: $c-secondary;
+  background-color: transparent;
+  border: 1px solid rgb(139 173 149 / 50%);
+
+  &:focus,
+  &:hover {
+    background-color: rgb(139 173 149 / 4%);
+    border-color: $c-secondary;
+  }
 }
