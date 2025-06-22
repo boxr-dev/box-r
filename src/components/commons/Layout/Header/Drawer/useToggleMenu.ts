@@ -11,7 +11,7 @@ export const useToggleMenu = (): ToggleMenu => {
   const [isOpen, setIsOpen] = useState(false)
   const [isHiddenElement, setIsHiddenElement] = useState(true)
 
-  const timeoutId = useRef<NodeJS.Timeout | null>()
+  const timeoutId = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     return function cleanup() {

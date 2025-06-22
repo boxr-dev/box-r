@@ -25,7 +25,7 @@
 ## アーキテクチャ
 
 ### 技術スタック
-- **フレームワーク**: Next.js 15 with React 18
+- **フレームワーク**: Next.js 15 with React 19
 - **スタイリング**: SCSS modules with CSS reset
 - **TypeScript**: Strict mode enabled
 - **パスエイリアス**: `@/*` が `src/*` にマップ
