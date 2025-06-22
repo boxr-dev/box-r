@@ -12,7 +12,7 @@
 .primary {
   font-size: 20px;
   line-height: 1.2;
-  color: $t-primary;
+  color: $palette-text-primary;
 
   @include mq(xs) {
     line-height: 1.4;
@@ -23,7 +23,7 @@
   margin-top: 12px;
   font-size: 14px;
   line-height: 1.4;
-  color: $t-secondary;
+  color: $palette-text-secondary;
 
   @include mq(xs) {
     margin-top: 8px;

@@ -20,7 +20,7 @@
   h2 {
     margin-bottom: 16px;
     font-size: 24px;
-    color: $t-primary;
+    color: $palette-text-primary;
   }
 
   ol {
@@ -38,7 +38,7 @@
 
       &::before {
         padding-right: 0.5em;
-        color: $t-primary;
+        color: $palette-text-primary;
         content: counter(item) '.';
         counter-increment: item;
       }

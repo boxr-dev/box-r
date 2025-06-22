@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: $b-default;
+  background-color: $palette-background-default;
 }
 
 .container-inner {
@@ -43,14 +43,14 @@
 
     &:focus {
       border-radius: 4px;
-      outline: $c-primary solid 1px;
+      outline: $palette-common-black solid 1px;
     }
 
     svg {
       width: 150px;
       max-width: 100%;
       height: auto;
-      fill: $c-primary;
+      fill: $palette-common-black;
 
       @include mq(sm) {
         width: 100px;

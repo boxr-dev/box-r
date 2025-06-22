@@ -12,32 +12,31 @@
 }
 
 .contained {
-  color: $t-contrast-primary;
-  background-color: $c-secondary;
+  color: $palette-common-white;
+  background-color: palette-primary-main-rgb(0.9);
   box-shadow:
-    0 3px 1px -2px rgb(0 0 0 / 20%),
-    0 2px 2px 0 rgb(0 0 0 / 14%),
-    0 1px 5px 0 rgb(0 0 0 / 12%);
-  opacity: 0.9;
+    0 3px 1px -2px $palette-shadow-offset-x,
+    0 2px 2px 0 $palette-shadow-offset-y,
+    0 1px 5px 0 $palette-shadow-blur-radius;
 
   &:focus,
   &:hover {
+    background-color: $palette-primary-main;
     box-shadow:
-      0 2px 4px -1px rgb(0 0 0 / 20%),
-      0 4px 5px 0 rgb(0 0 0 / 14%),
-      0 1px 10px 0 rgb(0 0 0 / 12%);
-    opacity: 1;
+      0 2px 4px -1px $palette-shadow-offset-x,
+      0 4px 5px 0 $palette-shadow-offset-y,
+      0 1px 10px 0 $palette-shadow-blur-radius;
   }
 }
 
 .outlined {
-  color: $c-secondary;
+  color: $palette-primary-main;
   background-color: transparent;
-  border: 1px solid rgb(139 173 149 / 50%);
+  border: 1px solid palette-primary-main-rgb(0.5);
 
   &:focus,
   &:hover {
-    background-color: rgb(139 173 149 / 4%);
-    border-color: $c-secondary;
+    background-color: palette-primary-main-rgb(0.04);
+    border-color: $palette-primary-main;
   }
 }

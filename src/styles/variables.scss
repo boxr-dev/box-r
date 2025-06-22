@@ -1,20 +1,21 @@
 @use 'sass:map';
 
-// メインカラー
-$c-primary: #616161;
-$c-secondary: #8bad95;
+// カラーパレット
+$palette-common-white: #fff;
+$palette-common-black: #616161;
+$palette-primary-main: #8bad95;
+$palette-background-default: $palette-common-white;
+$palette-background-accent: #f7f7f7;
+$palette-background-hover: #e5e5e5;
+$palette-text-primary: $palette-common-black;
+$palette-text-secondary: #9e9e9e;
+$palette-shadow-offset-x: rgb(0 0 0 / 20%);
+$palette-shadow-offset-y: rgb(0 0 0 / 14%);
+$palette-shadow-blur-radius: rgb(0 0 0 / 12%);
 
-// バックグラウンド
-$b-default: #fff;
-$b-accent: #f7f7f7;
-$b-hover: #e5e5e5;
-
-// テキスト関連
-$t-primary: #616161;
-$t-secondary: #9e9e9e;
-$t-accent: #8bad95;
-$t-disabled: #c2c2c2;
-$t-contrast-primary: #fff;
+@function palette-primary-main-rgb($alpha) {
+  @return rgba(139, 173, 149, $alpha);
+}
 
 // ページ関連
 $page-max-width: 600px;

@@ -9,7 +9,7 @@
   position: relative;
   display: inline-block;
   font-size: 32px;
-  color: $t-primary;
+  color: $palette-text-primary;
 
   &::after {
     position: absolute;
@@ -18,12 +18,12 @@
     width: $page-max-width;
     margin-left: 16px;
     content: '';
-    border-top: 1px solid $t-accent;
+    border-top: 1px solid $palette-primary-main;
   }
 }
 
 .sub-title {
   display: block;
   font-size: 24px;
-  color: $t-accent;
+  color: $palette-primary-main;
 }
