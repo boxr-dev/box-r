@@ -1,0 +1,79 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: $page-max-width;
+  padding: 32px 0 64px;
+  margin: auto;
+
+  @include mq(sm) {
+    padding: 24px 0 48px;
+  }
+}
+
+.notes {
+  padding: 0 32px;
+  margin-top: 32px;
+  font-size: 14px;
+  color: $palette-text-secondary;
+
+  @include mq(sm) {
+    font-size: 12px;
+  }
+}
+
+.date-note {
+  margin-top: 16px;
+  font-style: italic;
+  color: $palette-text-secondary;
+  text-align: right;
+}
+
+.table-wrapper {
+  padding: 0 32px;
+  overflow-x: auto;
+
+  @include mq(sm) {
+    padding: 0 16px;
+  }
+}
+
+.size-table {
+  width: 100%;
+  min-width: 800px;
+  font-size: 14px;
+  border-collapse: collapse;
+
+  @include mq(sm) {
+    min-width: 700px;
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    font-weight: 500;
+    color: $palette-common-white;
+    background-color: $palette-primary-main;
+  }
+}
+
+.box-type {
+  font-weight: 500;
+  background-color: $palette-background-accent;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
