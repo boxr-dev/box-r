@@ -13,8 +13,8 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
         <SectionTitle title='単発レッスン' subTitle='One shot lesson' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
-            <Paragraph>インテリア茶箱クラブ認定インストラクターによるレッスンです。</Paragraph>
-            <Paragraph>19種類からご希望の茶箱サイズにて、レッスンさせていただきます。</Paragraph>
+            <Paragraph>インテリア茶箱クラブ認定インストラクターとして、レッスンさせていただきます。</Paragraph>
+            <Paragraph>約20種類からご希望の茶箱サイズをお選びいただけます。</Paragraph>
           </div>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>ご自宅にある茶箱を使用してのレッスンをご希望の方は、ご相談ください。</Paragraph>
@@ -50,6 +50,11 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
               <Paragraph>※茶箱サイズは一覧表を参照ください。</Paragraph>
               <Paragraph>※支払い方法は 現金 or PayPay です。（当日精算）</Paragraph>
             </div>
+            <div className={style['button-container']}>
+              <BottonLink href={'/lesson/interior-chabako/size'} variant='outlined'>
+                茶箱サイズ一覧
+              </BottonLink>
+            </div>
           </div>
         </div>
         <div>
@@ -72,6 +77,11 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
               </BottonLink>
             </div>
           </div>
+        </div>
+        <div className={style['button-container']}>
+          <BottonLink href={'/lesson'} variant='outlined'>
+            レッスン一覧に戻る
+          </BottonLink>
         </div>
       </section>
     </div>

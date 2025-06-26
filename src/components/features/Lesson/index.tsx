@@ -53,7 +53,7 @@ export const Lesson: React.FC = () => {
               <ListItemImage src='/images/lesson/diploma.jpg' alt='ディプロマコースの作品' />
               <ListItemText
                 primary='ディプロマコース'
-                secondary='17 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
+                secondary='16 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
               />
             </ListItemButton>
             <ListItemButton href='/lesson/cartonnage/french-maison-decor'>

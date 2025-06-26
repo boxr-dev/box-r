@@ -14,7 +14,7 @@ export const DiplomaCartonnageLesson: React.FC = () => {
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>
-              17作品＋オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請するとBOX R認定教室となります。
+              16作品＋オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請するとBOX R認定教室となります。
             </Paragraph>
             <Paragraph>コース終了後は、コースで習った作品のレッスン、販売が可能となります。</Paragraph>
             <Paragraph>その際には《BOX R design》と明記が必要となります。(SNS掲載も同様)</Paragraph>
@@ -35,7 +35,7 @@ export const DiplomaCartonnageLesson: React.FC = () => {
         <div>
           <ContentTitle>カリキュラム内容</ContentTitle>
           <div className={style.discription}>
-            <Paragraph>下記17作品を作成後、今まで学んだことをもとに、オリジナル作品を提出していただきます。</Paragraph>
+            <Paragraph>下記16作品を作成後、今まで学んだことをもとに、オリジナル作品を提出していただきます。</Paragraph>
             <ol className={style['curriculum-list']}>
               <li>花形バスケット</li>
               <li>レターラック</li>
@@ -48,7 +48,6 @@ export const DiplomaCartonnageLesson: React.FC = () => {
               <li>スクエアバニティ</li>
               <li>タッセルボックス</li>
               <li>バニティバッグ（オーバル）</li>
-              <li>ハートBOX</li>
               <li>トランク</li>
               <li>マジックボックス（六角形）</li>
               <li>宝箱</li>
@@ -94,6 +93,11 @@ export const DiplomaCartonnageLesson: React.FC = () => {
               </BottonLink>
             </div>
           </div>
+        </div>
+        <div className={style['button-container']}>
+          <BottonLink href={'/lesson'} variant='outlined'>
+            レッスン一覧に戻る
+          </BottonLink>
         </div>
       </section>
     </div>

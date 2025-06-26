@@ -75,6 +75,11 @@ export const FrenchMaisonDecorLesson: React.FC = () => {
             </div>
           </div>
         </div>
+        <div className={style['button-container']}>
+          <BottonLink href={'/lesson'} variant='outlined'>
+            レッスン一覧に戻る
+          </BottonLink>
+        </div>
       </section>
     </div>
   )
