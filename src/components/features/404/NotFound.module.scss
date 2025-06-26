@@ -8,7 +8,7 @@
   width: 100%;
   height: 100vh;
   padding: $header-height 0;
-  background-color: $b-default;
+  background-color: $palette-background-default;
 
   @include mq(sm) {
     height: 100dvh;

@@ -20,3 +20,30 @@
 .discription {
   padding: 16px 0;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.paragraph-wrapper {
+  padding-bottom: 16px;
+}
+
+.sub-paragraph {
+  padding-top: 8px;
+  font-size: 80%;
+}
+
+.curriculum-list {
+  padding-left: 1.5em;
+  margin: 12px 0;
+  list-style-type: decimal;
+
+  & li {
+    margin-bottom: 4px;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+}

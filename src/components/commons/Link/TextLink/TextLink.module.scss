@@ -2,14 +2,14 @@
 
 .container {
   font-size: 1em;
-  color: $t-primary;
+  color: $palette-text-primary;
 
   &:focus,
   &:hover {
     text-decoration: underline;
 
     @include mq(sm) {
-      color: $t-secondary;
+      color: $palette-text-secondary;
       text-decoration: none;
     }
   }

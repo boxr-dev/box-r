@@ -6,8 +6,8 @@ html {
 
 body {
   font-family: 'Times New Roman', YuMincho, 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', serif;
-  color: $t-primary;
-  background-color: $b-default;
+  color: $palette-text-primary;
+  background-color: $palette-background-default;
 }
 
 a {

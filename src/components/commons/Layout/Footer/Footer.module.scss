@@ -2,7 +2,7 @@
 
 .container {
   width: 100%;
-  background-color: $b-accent;
+  background-color: $palette-background-accent;
 }
 
 .container-inner {
@@ -152,7 +152,7 @@
 
 .copy-right-text {
   margin: 8px;
-  color: $t-secondary;
+  color: $palette-text-secondary;
 
   @include mq(sm) {
     margin: 0;

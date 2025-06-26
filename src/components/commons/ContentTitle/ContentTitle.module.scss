@@ -9,7 +9,7 @@
   position: relative;
   display: inline-block;
   font-size: 24px;
-  color: $t-primary;
+  color: $palette-text-primary;
 
   &::after {
     position: absolute;
@@ -18,6 +18,6 @@
     width: $page-max-width;
     margin-left: 16px;
     content: '';
-    border-top: 1px dashed $t-secondary;
+    border-top: 1px dashed $palette-text-secondary;
   }
 }
