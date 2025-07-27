@@ -1,6 +1,5 @@
 import { List } from './List'
 import { ListItemButton } from './ListItemButton'
-import { ListItemCard } from './ListItemCard'
 import { ListItemImage } from './ListItemImage'
 import { ListItemText } from './ListItemText'
 import { ContentTitle } from '@/components/commons/ContentTitle'
@@ -109,13 +108,13 @@ export const Lesson: React.FC = () => {
               <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='グルーバッグ' secondary='縫わずにグルーで仕上げるハンドメイドバッグを制作します。' />
             </ListItemButton>
-            <ListItemCard href='/lesson/9'>
+            <ListItemButton href='/lesson/tassel'>
               <ListItemImage src='/images/lesson/tassel.jpg' alt='インテリア茶箱の作品' />
               <ListItemText
                 primary='タッセル（APJ）'
                 secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。'
               />
-            </ListItemCard>
+            </ListItemButton>
           </List>
         </div>
       </section>
