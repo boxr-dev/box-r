@@ -101,10 +101,10 @@ export const Lesson: React.FC = () => {
                 secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
               />
             </ListItemButton>
-            <ListItemCard href='/lesson/7'>
+            <ListItemButton href='/lesson/ironing-board'>
               <ListItemImage src='/images/lesson/ironing-board.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='アイロン台' secondary='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。' />
-            </ListItemCard>
+            </ListItemButton>
             <ListItemCard href='/lesson/8'>
               <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='グルーバッグ' secondary='縫わずにグルーで仕上げるハンドメイドバッグを制作します。' />
