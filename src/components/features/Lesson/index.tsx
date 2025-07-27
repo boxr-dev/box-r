@@ -1,12 +1,11 @@
 import { List } from './List'
-import { ListItemButton } from './ListItemButton'
-import { ListItemImage } from './ListItemImage'
-import { ListItemText } from './ListItemText'
 import { ContentTitle } from '@/components/commons/ContentTitle'
 import { PageTitle } from '@/components/commons/PageTitle'
 import { Paragraph } from '@/components/commons/Paragraph'
 import { SectionTitle } from '@/components/commons/SectionTitle'
+import { Card } from '@/components/features/Lesson/Card'
 import style from '@/components/features/Lesson/Lesson.module.scss'
+import { ListItem } from '@/components/features/Lesson/ListItem'
 
 export const Lesson: React.FC = () => {
   return (
@@ -34,36 +33,43 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/cartonnage/one-shot'>
-              <ListItemImage src='/images/lesson/cartonnage.jpg' alt='カルトナージュの作品' />
-              <ListItemText primary='単発レッスン' secondary='スキルに合わせてご希望の作品を制作します。' />
-            </ListItemButton>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/cartonnage.jpg', alt: 'カルトナージュの作品' }}
+                title='単発レッスン'
+                description='スキルに合わせてご希望の作品を制作します。'
+                href='/lesson/cartonnage/one-shot'
+              />
+            </ListItem>
           </List>
         </div>
         <div>
           <ContentTitle>コースレッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/cartonnage/license'>
-              <ListItemImage src='/images/lesson/license.jpg' alt='ライセンスコースの作品' />
-              <ListItemText
-                primary='ライセンスコース'
-                secondary='基本の 10 作品 + オリジナル作品を制作して、ライセンスが取得できるコースです。取得後、ディプロマコースにお進みいただけます。'
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/license.jpg', alt: 'ライセンスコースの作品' }}
+                title='ライセンスコース'
+                description='基本の 10 作品 + オリジナル作品を制作して、ライセンスが取得できるコースです。取得後、ディプロマコースにお進みいただけます。'
+                href='/lesson/cartonnage/license'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/cartonnage/diploma'>
-              <ListItemImage src='/images/lesson/diploma.jpg' alt='ディプロマコースの作品' />
-              <ListItemText
-                primary='ディプロマコース'
-                secondary='16 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
+            </ListItem>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/diploma.jpg', alt: 'ディプロマコースの作品' }}
+                title='ディプロマコース'
+                description='16 作品 + オリジナル作品を制作して、ディプロマが取得できるコースです。取得後、申請すると BOX R 認定教室となります。'
+                href='/lesson/cartonnage/diploma'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/cartonnage/french-maison-decor'>
-              <ListItemImage src='/images/lesson/french-maison-decor.jpg' alt='フレンチメゾンデコールの作品' />
-              <ListItemText
-                primary='フレンチメゾンデコール'
-                secondary='カルトナージュを中心にインテリアに関する手工芸を学び、ディプロマが取得できるコースです。'
+            </ListItem>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/french-maison-decor.jpg', alt: 'フレンチメゾンデコールの作品' }}
+                title='フレンチメゾンデコール'
+                description='カルトナージュを中心にインテリアに関する手工芸を学び、ディプロマが取得できるコースです。'
+                href='/lesson/cartonnage/french-maison-decor'
               />
-            </ListItemButton>
+            </ListItem>
           </List>
         </div>
       </section>
@@ -81,10 +87,14 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/interior-chabako/one-shot'>
-              <ListItemImage src='/images/lesson/interior-chabako.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='単発レッスン' secondary='ご希望のサイズのインテリア茶箱を制作します。' />
-            </ListItemButton>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/interior-chabako.jpg', alt: 'インテリア茶箱の作品' }}
+                title='単発レッスン'
+                description='ご希望のサイズのインテリア茶箱を制作します。'
+                href='/lesson/interior-chabako/one-shot'
+              />
+            </ListItem>
           </List>
         </div>
       </section>
@@ -93,28 +103,38 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemButton href='/lesson/mini-chabako'>
-              <ListItemImage src='/images/lesson/mini-chabako.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText
-                primary='ミニ茶箱'
-                secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/mini-chabako.jpg', alt: 'ミニ茶箱の作品' }}
+                title='ミニ茶箱'
+                description='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
+                href='/lesson/mini-chabako'
               />
-            </ListItemButton>
-            <ListItemButton href='/lesson/ironing-board'>
-              <ListItemImage src='/images/lesson/ironing-board.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='アイロン台' secondary='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。' />
-            </ListItemButton>
-            <ListItemButton href='/lesson/glue-bag'>
-              <ListItemImage src='/images/lesson/glue-bag.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText primary='グルーバッグ（JGBA）' secondary='縫わずにグルーで仕上げるハンドメイドバッグを制作します。' />
-            </ListItemButton>
-            <ListItemButton href='/lesson/tassel'>
-              <ListItemImage src='/images/lesson/tassel.jpg' alt='インテリア茶箱の作品' />
-              <ListItemText
-                primary='タッセル（APJ）'
-                secondary='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。'
+            </ListItem>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/ironing-board.jpg', alt: 'アイロン台の作品' }}
+                title='アイロン台'
+                description='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。'
+                href='/lesson/ironing-board'
               />
-            </ListItemButton>
+            </ListItem>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/glue-bag.jpg', alt: 'グルーバッグの作品' }}
+                title='グルーバッグ（JGBA）'
+                description='縫わずにグルーで仕上げるハンドメイドバッグを制作します。'
+                href='/lesson/glue-bag'
+              />
+            </ListItem>
+            <ListItem>
+              <Card
+                image={{ src: '/images/lesson/tassel.jpg', alt: 'タッセルの作品' }}
+                title='タッセル（APJ）'
+                description='カルトナージュやインテリア茶箱に欠かせないタッセルを制作します。'
+                href='/lesson/tassel'
+              />
+            </ListItem>
           </List>
         </div>
       </section>

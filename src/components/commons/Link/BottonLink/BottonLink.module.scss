@@ -2,13 +2,8 @@
 
 .container {
   display: flex;
-  font-size: 1rem;
   font-weight: 500;
   border-radius: 4px;
-}
-
-.link {
-  padding: 15px 40px;
 }
 
 .contained {
@@ -39,4 +34,25 @@
     background-color: palette-primary-main-rgb(0.04);
     border-color: $palette-primary-main;
   }
+}
+
+.text {
+  color: $palette-primary-main;
+  background-color: transparent;
+  border: none;
+
+  &:focus,
+  &:hover {
+    background-color: palette-primary-main-rgb(0.04);
+  }
+}
+
+.small {
+  padding: 4px 10px;
+  font-size: 0.875rem;
+}
+
+.large {
+  padding: 15px 40px;
+  font-size: 1rem;
 }
