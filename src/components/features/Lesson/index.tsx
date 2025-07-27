@@ -94,13 +94,13 @@ export const Lesson: React.FC = () => {
         <div>
           <ContentTitle>単発レッスン</ContentTitle>
           <List>
-            <ListItemCard href='/lesson/6'>
+            <ListItemButton href='/lesson/mini-chabako'>
               <ListItemImage src='/images/lesson/mini-chabako.jpg' alt='インテリア茶箱の作品' />
               <ListItemText
                 primary='ミニ茶箱'
                 secondary='手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'
               />
-            </ListItemCard>
+            </ListItemButton>
             <ListItemCard href='/lesson/7'>
               <ListItemImage src='/images/lesson/ironing-board.jpg' alt='インテリア茶箱の作品' />
               <ListItemText primary='アイロン台' secondary='タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。' />
