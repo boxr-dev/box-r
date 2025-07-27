@@ -6,12 +6,13 @@ $palette-common-black: #616161;
 $palette-primary-main: #8bad95;
 $palette-background-default: $palette-common-white;
 $palette-background-accent: #f7f7f7;
-$palette-background-hover: #e5e5e5;
+$palette-background-hover: rgb(0 0 0 / 4%);
 $palette-text-primary: $palette-common-black;
 $palette-text-secondary: #9e9e9e;
 $palette-shadow-offset-x: rgb(0 0 0 / 20%);
 $palette-shadow-offset-y: rgb(0 0 0 / 14%);
 $palette-shadow-blur-radius: rgb(0 0 0 / 12%);
+$palette-divider: #eee;
 
 @function palette-primary-main-rgb($alpha) {
   @return rgba(139, 173, 149, $alpha);
@@ -25,10 +26,11 @@ $header-height: 94px;
 $m-header-height: 64px;
 
 // z-index関連
-$z-index-header: 1000;
-$z-index-drawer: 1100;
-$z-index-drawer-wrap: 1150;
-$z-index-drawer-menu-btn: 1200;
+$z-index-stepper: 1000;
+$z-index-header: 1100;
+$z-index-drawer: 1200;
+$z-index-drawer-menu: 1250;
+$z-index-drawer-menu-btn: 1300;
 
 // メディアクエリ
 $breakpoints: (

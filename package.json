@@ -19,6 +19,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.2.1",
+    "rss-parser": "^3.13.0",
     "the-new-css-reset": "^1.11.2"
   },
   "devDependencies": {

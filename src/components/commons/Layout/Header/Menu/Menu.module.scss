@@ -24,10 +24,10 @@
   height: 60px;
   margin: 0;
   font-weight: normal;
-  border-bottom: 1px #eee solid;
+  border-bottom: 1px $palette-divider solid;
 
   &:first-child {
-    border-top: 1px #eee solid;
+    border-top: 1px $palette-divider solid;
   }
 
   a {

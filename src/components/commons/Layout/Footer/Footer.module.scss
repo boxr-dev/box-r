@@ -61,7 +61,7 @@
 
     &:first-child {
       li:first-child {
-        border-top: 1px #eee solid;
+        border-top: 1px $palette-divider solid;
       }
     }
   }
@@ -71,7 +71,7 @@
   @include mq(sm) {
     height: 60px;
     margin: 0;
-    border-bottom: 1px #eee solid;
+    border-bottom: 1px $palette-divider solid;
 
     a {
       display: flex;
@@ -89,7 +89,7 @@
     display: block;
     height: 60px;
     margin: 0;
-    border-bottom: 1px #eee solid;
+    border-bottom: 1px $palette-divider solid;
 
     a {
       display: flex;

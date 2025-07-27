@@ -1,0 +1,35 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px 4px;
+  font-size: 1em;
+  color: $palette-text-primary;
+
+  @include mq(lg) {
+    padding: 16px 8px;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: $palette-background-hover;
+  }
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  flex: 0 1 100%;
+}
+
+.external-link-icon {
+  margin-left: 4px;
+  font-size: 0.8em;
+}
