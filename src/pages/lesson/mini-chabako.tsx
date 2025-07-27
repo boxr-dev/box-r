@@ -4,7 +4,10 @@ import { MiniChabakoLesson } from '@/components/features/MiniChabakoLesson'
 
 const LessonPage: NextPage = () => {
   return (
-    <Layout title={'ミニ茶箱レッスン | BOX R'} description={'佐野里江子 | 小さくて可愛いミニ茶箱を作るレッスンです。'}>
+    <Layout
+      title={'ミニ茶箱レッスン | BOX R'}
+      description={'佐野里江子 | 手のひらサイズの茶箱の形をした桐箱を使用し、カルトナージュの技法で制作します。'}
+    >
       <MiniChabakoLesson />
     </Layout>
   )

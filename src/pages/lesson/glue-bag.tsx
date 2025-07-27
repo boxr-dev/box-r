@@ -6,7 +6,9 @@ const LessonPage: NextPage = () => {
   return (
     <Layout
       title={'グルーバック（JGBA）レッスン | BOX R'}
-      description={'佐野里江子 | JGBA認定講師によるグルーバックのレッスンです。'}
+      description={
+        '佐野里江子 | JGBA認定講師によるグルーバックのレッスンです。縫わずにグルーで仕上げるハンドメイドバッグを制作します。'
+      }
     >
       <GlueBagLesson />
     </Layout>

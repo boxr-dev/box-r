@@ -10,7 +10,7 @@ export const GlueBagLesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='グルーバック（JGBA） レッスン詳細' />
       <section className={style.section}>
-        <SectionTitle title='グルーバック（JGBA）レッスン' subTitle='Glue Bag lesson (JGBA)' />
+        <SectionTitle title='グルーバック（JGBA）' subTitle='Glue Bag lesson (JGBA)' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>JGBA認定講師として、レッスンさせていただきます。</Paragraph>

@@ -10,7 +10,7 @@ export const TasselLesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='タッセル（APJ） レッスン詳細' />
       <section className={style.section}>
-        <SectionTitle title='タッセル（APJ）レッスン' subTitle='Tassel lesson (APJ)' />
+        <SectionTitle title='タッセル（APJ）' subTitle='Tassel lesson (APJ)' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>APJ認定講師として、レッスンさせていただきます。</Paragraph>

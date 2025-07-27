@@ -10,7 +10,7 @@ export const IroningBoardLesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='アイロン台 レッスン詳細' />
       <section className={style.section}>
-        <SectionTitle title='アイロン台レッスン' subTitle='Ironing Board lesson' />
+        <SectionTitle title='アイロン台' subTitle='Ironing Board lesson' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>タッカーを使用し、インテリア雑貨のようなアイロン台を制作します。</Paragraph>

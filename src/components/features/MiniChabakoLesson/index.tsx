@@ -10,7 +10,7 @@ export const MiniChabakoLesson: React.FC = () => {
     <div className={style.container}>
       <PageTitle title='Lesson' subTitle='ミニ茶箱 レッスン詳細' />
       <section className={style.section}>
-        <SectionTitle title='ミニ茶箱レッスン' subTitle='Mini Chabako lesson' />
+        <SectionTitle title='ミニ茶箱' subTitle='Mini Chabako lesson' />
         <div className={style.discription}>
           <div className={style['paragraph-wrapper']}>
             <Paragraph>ミニ茶箱は、茶箱の形をしたインテリア小物です。</Paragraph>
