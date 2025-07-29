@@ -27,7 +27,7 @@ export const Card: React.FC<Props> = ({ image, title, description, href, isExter
       </Link>
       <div className={style['button-wrapper']}>
         <BottonLink href={href} variant='text' size='small'>
-          レッスンの詳細
+          もっと見る
         </BottonLink>
       </div>
     </div>
