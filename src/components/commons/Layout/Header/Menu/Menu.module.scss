@@ -12,6 +12,15 @@
   }
 }
 
+.logo-link {
+  border-radius: 50%;
+
+  &:focus-visible {
+    outline: 1px solid $palette-common-black;
+    outline-offset: 12px;
+  }
+}
+
 .nav {
   padding: 0 24px;
 }

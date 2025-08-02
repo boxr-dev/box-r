@@ -36,25 +36,30 @@
     flex: 1;
     justify-content: center;
   }
+}
 
-  a {
-    display: flex;
-    align-items: center;
+.logo-link {
+  display: flex;
+  align-items: center;
 
-    &:focus {
-      border-radius: 4px;
-      outline: $palette-common-black solid 1px;
+  &:focus-visible {
+    border-radius: 4px;
+    outline: $palette-common-black solid 1px;
+    outline-offset: 12px;
+
+    @include mq(sm) {
+      outline-offset: 8px;
     }
+  }
 
-    svg {
-      width: 150px;
-      max-width: 100%;
-      height: auto;
-      fill: $palette-common-black;
+  svg {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    fill: $palette-common-black;
 
-      @include mq(sm) {
-        width: 100px;
-      }
+    @include mq(sm) {
+      width: 100px;
     }
   }
 }

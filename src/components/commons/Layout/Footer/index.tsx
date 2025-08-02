@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
     <footer className={style.container}>
       <div className={style['container-inner']}>
         <div className={style.logo}>
-          <Link href={'/'}>
+          <Link href={'/'} className={style['logo-link']}>
             <Image src={'/images/logo/main.png'} alt='BOX R' loading='lazy' width={200} height={200} />
           </Link>
         </div>

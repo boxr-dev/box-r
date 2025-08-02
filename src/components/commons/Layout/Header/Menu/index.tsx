@@ -9,7 +9,7 @@ export const Menu: React.FC = () => {
   return (
     <>
       <div className={style.logo}>
-        <Link href={'/'}>
+        <Link href={'/'} className={style['logo-link']}>
           <Image src={'/images/logo/main.png'} alt='BOX R' loading='lazy' width={150} height={150} />
         </Link>
       </div>

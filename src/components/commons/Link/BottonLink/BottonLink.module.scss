@@ -14,7 +14,7 @@
     0 2px 2px 0 $palette-shadow-offset-y,
     0 1px 5px 0 $palette-shadow-blur-radius;
 
-  &:focus,
+  &:focus-within,
   &:hover {
     background-color: $palette-primary-main;
     box-shadow:
@@ -29,7 +29,7 @@
   background-color: transparent;
   border: 1px solid palette-primary-main-rgb(0.5);
 
-  &:focus,
+  &:focus-within,
   &:hover {
     background-color: palette-primary-main-rgb(0.04);
     border-color: $palette-primary-main;
@@ -37,11 +37,12 @@
 }
 
 .text {
+  font-weight: 700;
   color: $palette-primary-main;
   background-color: transparent;
   border: none;
 
-  &:focus,
+  &:focus-within,
   &:hover {
     background-color: palette-primary-main-rgb(0.04);
   }

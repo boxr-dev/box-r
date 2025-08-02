@@ -23,6 +23,11 @@ $animation-sec: 0.3s;
   border-radius: 50%;
   transition: transform 0.25s ease;
 
+  &:focus-visible {
+    outline: 1px solid $palette-common-black;
+    outline-offset: 1px;
+  }
+
   span {
     width: 65%;
     height: 2px;

@@ -11,6 +11,10 @@
     @include mq(sm) {
       color: $palette-text-secondary;
       text-decoration: none;
+
+      &:focus-visible {
+        background-color: $palette-background-hover;
+      }
     }
   }
 }

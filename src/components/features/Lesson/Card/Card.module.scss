@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  background-color: $palette-common-white;
 
   &:focus,
   &:hover {
@@ -32,6 +33,10 @@
 
   @include mq(xs) {
     flex-direction: column;
+
+    &:hover {
+      background-color: $palette-common-white;
+    }
   }
 }
 

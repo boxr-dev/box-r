@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
       <header className={style.container}>
         <div className={style['container-inner']}>
           <div className={style.logo}>
-            <Link href={'/'}>
+            <Link href={'/'} className={style['logo-link']}>
               <TitleImage role='img' aria-label='BOX R' />
             </Link>
           </div>
