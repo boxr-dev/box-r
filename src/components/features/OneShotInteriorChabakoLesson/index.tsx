@@ -1,5 +1,5 @@
 import { ContentTitle } from '@/components/commons/ContentTitle'
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import { PageTitle } from '@/components/commons/PageTitle'
 import { Paragraph } from '@/components/commons/Paragraph'
 import { SectionTitle } from '@/components/commons/SectionTitle'
@@ -51,9 +51,9 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
               <Paragraph>※支払い方法は 現金 or PayPay です。（当日精算）</Paragraph>
             </div>
             <div className={style['button-container']}>
-              <BottonLink href={'/lesson/interior-chabako/size'} variant='outlined'>
+              <ButtonLink href={'/lesson/interior-chabako/size'} variant='outlined'>
                 茶箱サイズ一覧
-              </BottonLink>
+              </ButtonLink>
             </div>
           </div>
         </div>
@@ -72,16 +72,16 @@ export const OneShotInteriorChabakoLesson: React.FC = () => {
           <div className={style.discription}>
             <Paragraph>お問い合わせフォームからご連絡ください。</Paragraph>
             <div className={style['button-container']}>
-              <BottonLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+              <ButtonLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
                 レッスンを申し込む
-              </BottonLink>
+              </ButtonLink>
             </div>
           </div>
         </div>
         <div className={style['button-container']}>
-          <BottonLink href={'/lesson'} variant='outlined'>
+          <ButtonLink href={'/lesson'} variant='outlined'>
             レッスン一覧に戻る
-          </BottonLink>
+          </ButtonLink>
         </div>
       </section>
     </div>

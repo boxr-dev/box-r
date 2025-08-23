@@ -1,5 +1,5 @@
 import { ContentTitle } from '@/components/commons/ContentTitle'
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import { PageTitle } from '@/components/commons/PageTitle'
 import { Paragraph } from '@/components/commons/Paragraph'
 import { SectionTitle } from '@/components/commons/SectionTitle'
@@ -54,16 +54,16 @@ export const TasselLesson: React.FC = () => {
           <div className={style.discription}>
             <Paragraph>お問い合わせフォームからご連絡ください。</Paragraph>
             <div className={style['button-container']}>
-              <BottonLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+              <ButtonLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
                 レッスンを申し込む
-              </BottonLink>
+              </ButtonLink>
             </div>
           </div>
         </div>
         <div className={style['button-container']}>
-          <BottonLink href={'/lesson'} variant='outlined'>
+          <ButtonLink href={'/lesson'} variant='outlined'>
             レッスン一覧に戻る
-          </BottonLink>
+          </ButtonLink>
         </div>
       </section>
     </div>

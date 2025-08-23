@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react'
 import style from './Card.module.scss'
 import { Link } from '@/components/commons/Link'
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import { CardContent } from '@/components/features/Lesson/Card/CardContent'
 import { CardMedia } from '@/components/features/Lesson/Card/CardMedia'
 
@@ -26,9 +26,9 @@ export const Card: React.FC<Props> = ({ image, title, description, href, isExter
         <CardContent headline={title} supportingText={description} />
       </Link>
       <div className={style['button-wrapper']}>
-        <BottonLink href={href} variant='text' size='small'>
+        <ButtonLink href={href} variant='text' size='small'>
           もっと見る
-        </BottonLink>
+        </ButtonLink>
       </div>
     </div>
   )

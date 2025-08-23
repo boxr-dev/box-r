@@ -1,5 +1,5 @@
 import styles from './InteriorChabakoSize.module.scss'
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import { PageTitle } from '@/components/commons/PageTitle'
 
 interface SizeData {
@@ -294,9 +294,9 @@ export default function InteriorChabakoSize() {
         </table>
       </div>
       <div className={styles['button-container']}>
-        <BottonLink href={'/lesson/interior-chabako/one-shot'} variant='outlined'>
+        <ButtonLink href={'/lesson/interior-chabako/one-shot'} variant='outlined'>
           レッスン詳細に戻る
-        </BottonLink>
+        </ButtonLink>
       </div>
     </div>
   )

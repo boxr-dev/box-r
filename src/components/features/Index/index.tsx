@@ -1,6 +1,6 @@
 import { BsChevronDoubleDown } from 'react-icons/bs'
 import { MainImage } from './MainImage'
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import { TextButtonLink } from '@/components/commons/Link/TextButtonLink'
 import { List } from '@/components/commons/List'
 import { ListItem } from '@/components/commons/ListItem'
@@ -40,9 +40,9 @@ export const Index: React.FC<Props> = ({ posts }) => {
             お教室で生まれた作品が皆様の日常を幸せにし、その作品をどなたかに差し上げる事で幸せが広がって欲しいと願っております。
           </Paragraph>
           <div className={style.link}>
-            <BottonLink href='/about' variant='outlined'>
+            <ButtonLink href='/about' variant='outlined'>
               もっと見る
-            </BottonLink>
+            </ButtonLink>
           </div>
         </section>
         <section className={style.section}>
@@ -58,9 +58,9 @@ export const Index: React.FC<Props> = ({ posts }) => {
             ))}
           </List>
           <div className={style.link}>
-            <BottonLink href='https://ameblo.jp/boxr-chabako/entrylist.html' variant='outlined' isExternalLink>
+            <ButtonLink href='https://ameblo.jp/boxr-chabako/entrylist.html' variant='outlined' isExternalLink>
               もっと見る
-            </BottonLink>
+            </ButtonLink>
           </div>
         </section>
         <section className={style.section}>
@@ -73,18 +73,18 @@ export const Index: React.FC<Props> = ({ posts }) => {
             迷ったときや不安な点があれば、お気軽にお声掛けください。創造力を発揮し、一緒に楽しい時間を過ごしましょう。
           </Paragraph>
           <div className={style.link}>
-            <BottonLink href='/lesson' variant='outlined'>
+            <ButtonLink href='/lesson' variant='outlined'>
               もっと見る
-            </BottonLink>
+            </ButtonLink>
           </div>
         </section>
         <section className={style.section}>
           <SectionTitle title='お問い合わせ' subTitle='Contact' />
           <Paragraph>作品に関するお問い合わせ・レッスンのご相談はこちらからお願いします。</Paragraph>
           <div className={style.link}>
-            <BottonLink href='https://ssl.form-mailer.jp/fms/2737b864408251' variant='contained' isExternalLink>
+            <ButtonLink href='https://ssl.form-mailer.jp/fms/2737b864408251' variant='contained' isExternalLink>
               お問い合わせはこちら
-            </BottonLink>
+            </ButtonLink>
           </div>
         </section>
       </div>

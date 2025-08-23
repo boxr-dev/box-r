@@ -1,4 +1,4 @@
-import { BottonLink } from '@/components/commons/Link/BottonLink'
+import { ButtonLink } from '@/components/commons/Link/ButtonLink'
 import style from '@/components/features/404/NotFound.module.scss'
 
 export const NotFound: React.FC = () => {
@@ -14,7 +14,7 @@ export const NotFound: React.FC = () => {
           <p>こちらのページはすでに削除されたか、もしくはURLが異なる場合があります。</p>
         </div>
       </div>
-      <BottonLink href={'/'}>TOPへ戻る</BottonLink>
+      <ButtonLink href={'/'}>TOPへ戻る</ButtonLink>
     </main>
   )
 }
