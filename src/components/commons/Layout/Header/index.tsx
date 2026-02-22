@@ -32,7 +32,7 @@ export const Header: React.FC = () => {
               <NavItem href={'https://ameblo.jp/boxr-chabako'} isExternalLink>
                 BLOG
               </NavItem>
-              <NavItem href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+              <NavItem href={'https://ssl.form-mailer.jp/fms/c0673825876983'} isExternalLink>
                 CONTACT
               </NavItem>
             </ul>

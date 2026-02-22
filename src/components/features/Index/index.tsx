@@ -82,7 +82,7 @@ export const Index: React.FC<Props> = ({ posts }) => {
           <SectionTitle title='お問い合わせ' subTitle='Contact' />
           <Paragraph>作品に関するお問い合わせ・レッスンのご相談はこちらからお願いします。</Paragraph>
           <div className={style.link}>
-            <ButtonLink href='https://ssl.form-mailer.jp/fms/2737b864408251' variant='contained' isExternalLink>
+            <ButtonLink href='https://ssl.form-mailer.jp/fms/c0673825876983' variant='contained' isExternalLink>
               お問い合わせはこちら
             </ButtonLink>
           </div>

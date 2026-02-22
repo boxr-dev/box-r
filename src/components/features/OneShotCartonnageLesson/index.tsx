@@ -54,7 +54,7 @@ export const OneShotCartonnageLesson: React.FC = () => {
           <div className={style.discription}>
             <Paragraph>お問い合わせフォームからご連絡ください。</Paragraph>
             <div className={style['button-container']}>
-              <ButtonLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+              <ButtonLink href={'https://ssl.form-mailer.jp/fms/c0673825876983'} isExternalLink>
                 レッスンを申し込む
               </ButtonLink>
             </div>

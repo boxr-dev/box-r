@@ -42,7 +42,7 @@ export const Menu: React.FC = () => {
             </TextLink>
           </li>
           <li className={style['nav-list-item']}>
-            <TextLink href={'https://ssl.form-mailer.jp/fms/2737b864408251'} isExternalLink>
+            <TextLink href={'https://ssl.form-mailer.jp/fms/c0673825876983'} isExternalLink>
               お問い合わせ
             </TextLink>
           </li>
